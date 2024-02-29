@@ -495,11 +495,109 @@
           h4.mb-0.pe-4(style="padding-top:7px;") Componentes del aseguramiento de la calidad de #[em software] (SQA)
     
     p(data-aos="fade-left") El aseguramiento de la calidad de #[em software], debe incluir los siguientes componentes:
+    
+    .row.mt-4
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        AcordionA.acordion1(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Procedimientos e instrucciones de trabajo")
+            p Procesos claramente definidos e instructivos que ayuden al personal a realizar sus actividades con cierto nivel de estandarización.
+          .row(titulo="Plantillas y listas de verificación")
+            p Se crean plantillas base para estandarizar la documentación producida y también crear instrumentos que permitan medir la calidad de dichos documentos.
+          .row(titulo="Capacitación del personal, la readaptación profesional y la certificación")
+            p El personal debe estar capacitado para ejecutar las actividades que le corresponden a su rol, por eso la capacitación juega un papel muy importante dentro de SQA.
+      .col-lg-6(data-aos="fade-left")
+        figure.m-auto.col-7.col-md-8.col-lg-12
+          img(src="@/assets/curso/tema2/34.svg" style="place-self:center;")
+    
+    .row.mt-4
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        figure.m-auto.col-7.col-md-8.col-lg-12
+          img(src="@/assets/curso/tema2/35.svg")
+      .col-lg-6(data-aos="fade-left" style="place-self:center;")
+        AcordionA.acordion1(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Acciones preventivas y correctivas")
+            p Se deben realizar acciones para prevenir que un problema se presente y acciones para corregir los problemas que ya se presentaron, usualmente estas acciones preventivas y correctivas surgen a raíz de las verificaciones y de las auditorías.
+          .row(titulo="Gestión de la configuración")
+            p En la organización se deben de tener procesos que especifiquen cómo serán llevadas a cabo las actividades cotidianas como son la recepción de los requerimientos y movimientos de activos de #[em software] entre las áreas, tales como el código fuente.
+          .row(titulo="Control de la documentación")
+            p Incluye controlar las versiones de los documentos y garantizar la disponibilidad y el acceso a los mismos, por todos los involucrados en el proceso.
+    
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Proceso del aseguramiento de la calidad de #[em software] (SQA)
+    
+    p(data-aos="fade-left") En el proceso de aseguramiento de la calidad de #[em software], se encuentran tres etapas:
 
-    AcordionA.mt-4.acordion1(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="División de Gestión de Calidad - ISO/IEC 2500n")
-        p 
+    .row.mt-4.justify-content-center
+      .col-lg.col-md-8.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.p-4.cont_hover1(style="background-color:#DCECFE;border-radius:12px;")
+          .text-end 
+            figure.cont_image_hover1
+              img(src="@/assets/curso/tema2/39.svg" style="max-width:60px;display:inline;")
+            figure.cont_image_hover2(style="display:none;")
+              img(src="@/assets/curso/tema2/40.svg" style="max-width:60px;display:inline;")
+          figure
+            img(src="@/assets/curso/tema2/36.svg" style="max-width:90px;display:inline;")
+          h4.mt-4 Planificación
+          p.mt-3 Se planifica que es lo que se va a probar, es decir se define el alcance de las pruebas.
+      .col-lg.col-md-8.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.p-4.cont_hover1(style="background-color:#DCECFE;border-radius:12px;")
+          .text-end 
+            figure.cont_image_hover1
+              img(src="@/assets/curso/tema2/39.svg" style="max-width:60px;display:inline;")
+            figure.cont_image_hover2(style="display:none;")
+              img(src="@/assets/curso/tema2/40.svg" style="max-width:60px;display:inline;")
+          figure
+            img(src="@/assets/curso/tema2/37.svg" style="max-width:90px;display:inline;")
+          h4.mt-4 Construcción
+          p.mt-3 Se crean los artefactos de prueba y el script de pruebas.
+      .col-lg.col-md-8.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.p-4.cont_hover1(style="background-color:#DCECFE;border-radius:12px;")
+          .text-end 
+            figure.cont_image_hover1
+              img(src="@/assets/curso/tema2/39.svg" style="max-width:60px;display:inline;")
+            figure.cont_image_hover2(style="display:none;")
+              img(src="@/assets/curso/tema2/40.svg" style="max-width:60px;display:inline;")
+          figure
+            img(src="@/assets/curso/tema2/38.svg" style="max-width:90px;display:inline;")
+          h4.mt-4 Ejecución
+          p.mt-3 En esta etapa se encuentran los defectos y se ejecutan los scripts de pruebas creados previamente.
+    
+    Separador
 
+    .titulo-segundo(data-aos="zoom-in-right")
+      h2#t_2_5 2.5  Modelos de referencia para la calidad en el proceso
+    
+    .cont_2_9.pb-5
+      .row
+        .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+          p En la calidad de #[em software] es importante involucrar el valor de los requerimientos explícitos e implícitos del producto, con el propósito de medir la calidad, los estándares y modelos de calidad existentes. 
+          p.mt-4 Estos modelos de calidad tienen un conjunto de factores que pueden ser medidos directamente como unidades de tiempo y errores, pero también indirectamente, como la facilidad de mantenimiento. 
+          .p-4.mt-4(style="background-color:#E1F6EF;border-radius:12px;")
+            .row
+              .col-auto(style="place-self:center;")
+                figure
+                  img(src="@/assets/curso/tema2/41.svg")
+              .col(style="place-self:center;")
+                p.mb-0 Los modelos de calidad son documentos que constituyen una parte importante de las mejores prácticas, plantean aspectos de administración en la cual las organizaciones deben hacer énfasis, además componen diversas prácticas que facilitan la medición de los avances en la calidad. 
+          p.mt-4 Los estándares de calidad además de ser una guía para alcanzar la calidad y la productividad, permiten especificar una serie de criterios de desarrollo para orientar la manera en que se emplea la ingeniería de #[em software]. A continuación, se nombran los modelos más importantes que evalúan la calidad del producto de #[em software].
+        .col-lg-4(data-aos="fade-left" style="place-self:center;")
+          figure.m-auto.col-7.col-md-7.col-lg-12
+            img(src="@/assets/curso/tema2/42.png")
+
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Modelo Mc Call
+    
+    p(data-aos="fade-left") Son una serie de preguntas que ponderan un determinado atributo del producto de software numéricamente. En la siguiente tabla se establecen los criterios de calidad relacionados con los factores de calidad.
 
 
 
@@ -640,6 +738,24 @@ export default {
   height: 70%
   top: 0
   background-color: #DCECFE
+.cont_hover1:hover
+  background-color: #273A89 !important
+.cont_hover1:hover *
+  color: #fff !important
+.cont_hover1:hover .cont_image_hover1
+  display: none !important
+.cont_hover1:hover .cont_image_hover2
+  display: block !important
+.cont_2_9, .cont_2_9 *
+  position: relative
+.cont_2_9:before
+  background-color: #ADD3FD
+  position: absolute
+  content: ''
+  width: 125%
+  left: -15%
+  height: 50%
+  bottom: 0
 @media screen and (max-width: 992px)
   .cont_flotante_1
     top: 0px !important
