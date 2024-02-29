@@ -597,7 +597,74 @@
         .col(style="place-self:center;")
           h4.mb-0.pe-4(style="padding-top:7px;") Modelo Mc Call
     
-    p(data-aos="fade-left") Son una serie de preguntas que ponderan un determinado atributo del producto de software numéricamente. En la siguiente tabla se establecen los criterios de calidad relacionados con los factores de calidad.
+    p(data-aos="fade-left") Son una serie de preguntas que ponderan un determinado atributo del producto de #[em software] numéricamente. En la siguiente tabla se establecen los criterios de calidad relacionados con los factores de calidad.
+
+    .col-xl-8.m-auto.mt-5
+      .titulo-sexto.color-acento-contenido(data-aos="zoom-in-down")
+        h5 Tabla 1.
+        span Modelo Mc Call, factores de calidad del #[em software]
+      .tabla-a.color-acento-botones(data-aos="zoom-in-up")
+        table
+          thead(style="border:0;")
+            tr(style="background-color:#273A89;")
+              th.text-white.text-center(style="border:1px white solid;") PERSPECTIVAS
+              th.text-white.text-center(style="border:1px white solid;") FACTORES
+              th.text-white.text-center(style="border:1px white solid;") CRITERIOS
+          tbody
+            tr(style="background-color:#DCECFE;")
+              td(style="border:1px white solid;" rowspan="5") Operatividad del producto: factores de calidad que influyen en el grado en que el #[em software] cumple con su especificación.
+            tr(style="background-color:#DCECFE;")
+              td(style="border:1px white solid;") Usabilidad: facilidad de uso del #[em software].
+              td.text-center(style="border:1px white solid;") 
+                p.mb-0 Operatividad. 
+                p.mb-0 Entrenamiento. 
+                p.mb-0 Comunicación.
+            tr(style="background-color:#DCECFE;")
+              td(style="border:1px white solid;") Integridad: protección de programa del acceso no autorizado.
+              td.text-center(style="border:1px white solid;") 
+                p.mb-0 Control de acceso.
+                p.mb-0 Auditoría de acceso.
+            tr(style="background-color:#DCECFE;")
+              td(style="border:1px white solid;") Corrección: grado en que una funcionalidad coincide con su especificación.
+              td.text-center(style="border:1px white solid;") 
+                p.mb-0 Rastreabilidad. 
+                p.mb-0 Completitud. 
+                p.mb-0 Consistencia.
+            tr(style="background-color:#DCECFE;")
+              td(style="border:1px white solid;") Fiabilidad – confiabilidad: capacidad de los sistemas de no fallar / la medida en que falla el sistema.
+              td.text-center(style="border:1px white solid;") 
+                p.mb-0 Consistencia. 
+                p.mb-0 Exactitud.
+                p.mb-0 Tolerancia a fallos.
+            tr(style="background-color:#DCECFE;")
+              td(style="border:1px white solid;" rowspan="5") Revisión del producto: factores de calidad que influyen en la capacidad de cambiar el producto #[em software].
+            tr(style="background-color:#DCECFE;")
+              td(style="border:1px white solid;") Mantenibilidad: esfuerzo requerido para localizar y arreglar un fallo en el programa dentro de su entorno operativo.
+              td.text-center(style="border:1px white solid;") 
+                p.mb-0 Simplicidad.
+                p.mb-0 Concreción.
+            tr(style="background-color:#DCECFE;")
+              td(style="border:1px white solid;") Facilidad de prueba: facilidad del programa de realizar pruebas para asegurarse de que está libre de errores y cumple con su especificación.
+              td.text-center(style="border:1px white solid;") 
+                p.mb-0 Simplicidad.
+                p.mb-0 Instrumentación. 
+                p.mb-0 Auto-descripción.
+                p.mb-0 Modularidad.
+            tr(style="background-color:#DCECFE;")
+              td(style="border:1px white solid;") Flexibilidad: facilidad de hacer los cambios necesarios según lo solicitado en el entorno operativo.
+              td.text-center(style="border:1px white solid;") 
+                p.mb-0 Auto-descripción.
+                p.mb-0 Capacidad de expansión. 
+                p.mb-0 Generalidad.
+                p.mb-0 Modularidad.
+            tr(style="background-color:#DCECFE;")
+              td(style="border:1px white solid;" rowspan="4") Transición del producto: factores de calidad que influyen en la capacidad de adaptar el software a los nuevos entornos.
+            tr(style="background-color:#DCECFE;")
+              td(style="border:1px white solid;") Reusabilidad: facilidad de reutilización de software en un contexto diferente.
+              td.text-center(style="border:1px white solid;") 
+                p.mb-0 Auto-descripción.
+                p.mb-0 Generalidad.
+                p.mb-0 Modularidad.
 
 
 
