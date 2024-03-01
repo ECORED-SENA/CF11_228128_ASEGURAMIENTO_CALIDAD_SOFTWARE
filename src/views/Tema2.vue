@@ -637,7 +637,7 @@
                 p.mb-0 Exactitud.
                 p.mb-0 Tolerancia a fallos.
             tr(style="background-color:#DCECFE;")
-              td(style="border:1px white solid;" rowspan="5") Revisión del producto: factores de calidad que influyen en la capacidad de cambiar el producto #[em software].
+              td(style="border:1px white solid;" rowspan="4") Revisión del producto: factores de calidad que influyen en la capacidad de cambiar el producto #[em software].
             tr(style="background-color:#DCECFE;")
               td(style="border:1px white solid;") Mantenibilidad: esfuerzo requerido para localizar y arreglar un fallo en el programa dentro de su entorno operativo.
               td.text-center(style="border:1px white solid;") 
@@ -658,13 +658,228 @@
                 p.mb-0 Generalidad.
                 p.mb-0 Modularidad.
             tr(style="background-color:#DCECFE;")
-              td(style="border:1px white solid;" rowspan="4") Transición del producto: factores de calidad que influyen en la capacidad de adaptar el software a los nuevos entornos.
+              td(style="border:1px white solid;" rowspan="3") Transición del producto: factores de calidad que influyen en la capacidad de adaptar el #[em software] a los nuevos entornos.
             tr(style="background-color:#DCECFE;")
-              td(style="border:1px white solid;") Reusabilidad: facilidad de reutilización de software en un contexto diferente.
+              td(style="border:1px white solid;") Reusabilidad: facilidad de reutilización de #[em software] en un contexto diferente.
               td.text-center(style="border:1px white solid;") 
                 p.mb-0 Auto-descripción.
                 p.mb-0 Generalidad.
                 p.mb-0 Modularidad.
+            tr(style="background-color:#DCECFE;")
+              td(style="border:1px white solid;") Interoperabilidad: esfuerzo requerido para acoplar el sistema a otro sistema.
+              td.text-center(style="border:1px white solid;") 
+                p.mb-0 Modularidad.
+                p.mb-0 Similitud de comunicación.
+                p.mb-0 Similitud de dato.
+                p.mb-0 Independencia del sistema.
+                p.mb-0 Independencia de la máquina.
+    
+    .col-xl-10.m-auto.mt-4
+      .p-4(style="background-color:#273A89;border-radius:12px;" data-aos="zoom-in")
+        p.mb-0.text-white El modelo de Mc Call es uno de los primeros desarrollados, no obstante, gran parte de los factores descritos son utilizados en la actualidad, además gran variedad de modelos de calidad, incluyendo la Norma ISO 9126 son una estandarización de este modelo.
+
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Modelo FURPS
+    
+    p(data-aos="fade-left") Este modelo lo desarrolló Hewlett-Packard en el año 1987. Incluye el desarrollo de una serie de factores de calidad de #[em software], teniendo en cuenta el acrónimo de FURPS: funcionalidad (#[em Functionality]), usabilidad (#[em Usability]), confiabilidad (#[em Reliability]), desempeño (#[em Performance]) y capacidad de soporte (#[em Supportability]). En la siguiente tabla se establecen los factores y los criterios de calidad.
+
+    .col-xl-6.col-lg-10.m-auto.mt-5
+      .titulo-sexto.color-acento-contenido(data-aos="zoom-in-down")
+        h5 Tabla 2.
+        span Modelo FURPS, factores de calidad del #[em software]
+      .tabla-a.color-acento-botones(data-aos="zoom-in-up")
+        table(style="min-width:100%;")
+          thead(style="border:0;")
+            tr(style="background-color:#273A89;")
+              th.text-white.text-center(style="border:1px white solid;") FACTORES
+              th.text-white.text-center(style="border:1px white solid;") CRITERIOS
+          tbody
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Funcionalidad
+              td(style="border:1px white solid;") 
+                p.mb-0 Características y capacidades del programa.
+                p.mb-0 Generalidad de las funciones.
+                p.mb-0 Seguridad del sistema.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Usabilidad
+              td(style="border:1px white solid;") 
+                p.mb-0 Factores humanos.
+                p.mb-0 Factores estéticos.
+                p.mb-0 Consistencia de la interfaz.
+                p.mb-0 Documentación.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Confiabilidad
+              td(style="border:1px white solid;") 
+                p.mb-0 Frecuencia y severidad de fallos.
+                p.mb-0 Exactitud de las salidas.
+                p.mb-0 Tiempo medio de fallos.
+                p.mb-0 Capacidad de recuperación ante fallos.
+                p.mb-0 Capacidad de predicción.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Rendimiento
+              td(style="border:1px white solid;") 
+                p.mb-0 Velocidad de procesamiento.
+                p.mb-0 Tiempo de respuesta.
+                p.mb-0 Consumo de recursos.
+                p.mb-0 Rendimiento efectivo total.
+                p.mb-0 Eficacia.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Capacidad de soporte
+              td(style="border:1px white solid;") 
+                p.mb-0 Extensibilidad.
+                p.mb-0 Adaptabilidad.
+                p.mb-0 Capacidad de prueba.
+                p.mb-0 Capacidad de configuración.
+                p.mb-0 Compatibilidad.
+                p.mb-0 Requisitos de instalación.
+    
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Modelo BOHEM 
+    
+    p(data-aos="fade-left") Este modelo plantea una jerarquía en forma de árbol con tres ramas y con ciertos niveles, lo cual hace que el #[em software] sea de gran utilidad, enfocándose en tres aspectos: portabilidad, facilidad de uso y facilidad de mantenimiento. El modelo BOHEM se diseña en los siguientes niveles:
+
+    .col-xl-8.m-auto.col-lg-10.mt-4
+      .p-3(style="background-color:#E1F6EF;border-radius:12px;" data-aos="flip-up")
+        .row
+          .col-auto(style="place-self:center;")
+            figure
+              img(src="@/assets/curso/tema2/43.svg")
+          .col(style="place-self:center;")
+            ul.lista-ul.mb-0
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB;")
+                div Aplicaciones primarias.
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB;")
+                div Construcciones Intermedias (factores).
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB;")
+                div Construcciones primitivas.
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB;")
+                div Métricas que establecen valores para los criterios (construcciones primitivas).
+    
+    p.mt-5(data-aos="fade-right") En la siguiente tabla se establecen los factores y criterios.
+
+    .col-xl-6.col-lg-10.m-auto.mt-5
+      .titulo-sexto.color-acento-contenido(data-aos="zoom-in-down")
+        h5 Tabla 3.
+        span Modelo BOHEM, factores de calidad del #[em software]
+      .tabla-a.color-acento-botones(data-aos="zoom-in-up")
+        table(style="min-width:100%;")
+          thead(style="border:0;")
+            tr(style="background-color:#273A89;")
+              th.text-white.text-center(style="border:1px white solid;") FACTORES
+              th.text-white.text-center(style="border:1px white solid;") CRITERIOS
+          tbody
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Portabilidad
+              td(style="border:1px white solid;") 
+                p.mb-0 Independencia dispositivos.
+                p.mb-0 Completitud.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Fiabilidad
+              td(style="border:1px white solid;") 
+                p.mb-0 Completitud.
+                p.mb-0 Exactitud.
+                p.mb-0 Consistencia.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Eficiencia
+              td(style="border:1px white solid;") 
+                p.mb-0 Eficiencia dispositivo.
+                p.mb-0 Accesibilidad.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Ingeniería humana
+              td(style="border:1px white solid;") 
+                p.mb-0 Accesibilidad.
+                p.mb-0 Comunicatividad.
+                p.mb-0 Estructuración.
+                p.mb-0 Auto-descripción.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Comprensibilidad
+              td(style="border:1px white solid;") 
+                p.mb-0 Consistencia.
+                p.mb-0 Estructuración.
+                p.mb-0 Auto-descripción.
+                p.mb-0 Concisión.
+                p.mb-0 Legibilidad.
+                p.mb-0 Expansibilidad.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Modificabilidad
+              td(style="border:1px white solid;") Estructuración.
+    
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") ISO/IEC 9126
+    
+    p(data-aos="fade-left") Es un estándar internacional para la evaluación de la calidad del #[em software], que se aplica a diversos tipos de #[em software]. No obstante, en el 2005 fue reemplazado por el conjunto de normas Square. Sus características se pueden observar en la siguiente tabla.
+
+    .col-xl-6.col-lg-10.m-auto.mt-5
+      .titulo-sexto.color-acento-contenido(data-aos="zoom-in-down")
+        h5 Tabla 4.
+        span Modelo ISO/IEC 9126, criterios asociados a factores de calidad
+      .tabla-a.color-acento-botones(data-aos="zoom-in-up")
+        table(style="min-width:100%;")
+          thead(style="border:0;")
+            tr(style="background-color:#273A89;")
+              th.text-white.text-center(style="border:1px white solid;") FACTORES
+              th.text-white.text-center(style="border:1px white solid;") CRITERIOS
+          tbody
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Funcionalidad
+              td(style="border:1px white solid;") 
+                p.mb-0 Adaptabilidad.
+                p.mb-0 Exactitud.
+                p.mb-0 Interoperabilidad.
+                p.mb-0 Seguridad.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Usabilidad
+              td(style="border:1px white solid;") 
+                p.mb-0 Comprensibilidad.
+                p.mb-0 Aprendizaje.
+                p.mb-0 Operatividad.
+                p.mb-0 Atractivo.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Mantenibilidad
+              td(style="border:1px white solid;") 
+                p.mb-0 Análisis.
+                p.mb-0 Cambio.
+                p.mb-0 Estabilidad.
+                p.mb-0 Prueba.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Fiabilidad
+              td(style="border:1px white solid;") 
+                p.mb-0 Madurez.
+                p.mb-0 Tolerancia a fallos.
+                p.mb-0 Recuperabilidad.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Eficiencia
+              td(style="border:1px white solid;") 
+                p.mb-0 Comportamiento del tiempo.
+                p.mb-0 Uso de los recursos.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Portabilidad
+              td(style="border:1px white solid;") 
+                p.mb-0 Adaptabilidad.
+                p.mb-0 Instalación.
+                p.mb-0 Coexistencia.
+                p.mb-0 Reemplazo.
+
+
 
 
 

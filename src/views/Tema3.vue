@@ -54,6 +54,401 @@
     
     p.mt-5(data-aos="fade-right") Cada entidad puede definir su propio plan de pruebas, basados en buenas prácticas, de acuerdo con las siguientes características:
 
+    .row.mt-5
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
+        figure.m-auto.col-7.col-md-7.col-lg-12
+          img(src="@/assets/curso/tema3/8.svg")
+      .col-lg-9(data-aos="fade-left")
+        TabsA.color-acento-botones
+          .tarjeta.color-acento-botones.p-4(titulo="El plan de prueba" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") El plan de prueba
+            p(style="color:#12263F;") Denota todos los procedimientos y métodos que serán empleados para la certificación del #[em(style="color:#12263F;") software] determinando, si cumple con las especificaciones presentadas en los requisitos y dadas por el cliente. Este incluye los objetivos de calidad, los recursos, cronograma, asignaciones, y métodos, entre otros. 
+          .tarjeta.color-acento-botones.p-4(titulo="Casos de prueba" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Casos de prueba
+            p(style="color:#12263F;") Listar los ítems que serán certificados y describe detalladamente los pasos que serán ejecutados para evaluar la verificación de las funcionalidades del producto #[em(style="color:#12263F;") software].
+          .tarjeta.color-acento-botones.p-4(titulo="Reporte de pruebas" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Reporte de pruebas
+            p(style="color:#12263F;") Describe los fallos encontrados en el proceso de ejecución de pruebas y las pruebas exitosas. 
+    
+    .cont_3_3.pt-5.pb-5
+      .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+        .row
+          .col-auto.pe-0
+            figure.ps-2
+              img(src="@/assets/curso/tema2/2.svg")
+          .col(style="place-self:center;")
+            h4.mb-0.pe-4(style="padding-top:7px;") Formatos
+      p(data-aos="fade-left") Recordemos que el estándar ISO/IEC/IEEE 29119-3:2013 es un instrumento que suministra una serie de artefactos validados a nivel internacional por las organizaciones a la vanguardia del proceso de desarrollo de #[em software], y a su vez al margen de la ejecución de pruebas de #[em software]. Los de mayor reconocimiento son:
+
+      .row.mt-5.justify-content-center
+        .col-lg.mb-4.mb-lg-0.col-md-9(data-aos="zoom-in")
+          .h-100.p-4.pt-3(style="background-color:#B3BAD6;border-radius:15px;")
+            .text-end
+              figure
+                img(src="@/assets/curso/tema3/13.svg" style="display:inline;max-width:70px;")
+            .row
+              .col-auto(style="place-self:center;")
+                figure
+                  img(src="@/assets/curso/tema3/10.svg")
+              .col(style="place-self:center;")
+                p.mb-0 Documentación de proceso de pruebas (a escala) organizacional.
+        .col-lg.mb-4.mb-lg-0.col-md-9(data-aos="zoom-in")
+          .h-100.p-4.pt-3(style="background-color:#B3BAD6;border-radius:15px;")
+            .text-end
+              figure
+                img(src="@/assets/curso/tema3/13.svg" style="display:inline;max-width:70px;")
+            .row
+              .col-auto(style="place-self:center;")
+                figure
+                  img(src="@/assets/curso/tema3/11.svg")
+              .col(style="place-self:center;")
+                p.mb-0 Documentación del proceso de gestión de pruebas.
+        .col-lg.mb-4.mb-lg-0.col-md-9(data-aos="zoom-in")
+          .h-100.p-4.pt-3(style="background-color:#B3BAD6;border-radius:15px;")
+            .text-end
+              figure
+                img(src="@/assets/curso/tema3/13.svg" style="display:inline;max-width:70px;")
+            .row
+              .col-auto(style="place-self:center;")
+                figure
+                  img(src="@/assets/curso/tema3/12.svg")
+              .col(style="place-self:center;")
+                p.mb-0 Documentación del proceso de pruebas dinámicas.
+    
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Artefactos de prueba
+    p(data-aos="fade-left") Los productos que resultan del proceso de desarrollo de #[em software] son identificados como artefactos, por ejemplo, el código fuente, defectos, plan y script de pruebas.
+    p.mt-4(data-aos="fade-right") La calidad de #[em software] se compone de artefactos específicos que se forman en las diversas etapas del proceso de SQA, como se observa a continuación.
+
+    .mt-5.col-xl-10.m-auto
+      .cont_3_4_1.p-4.p-lg-0(data-aos="zoom-in")
+        .row
+          .col-lg-auto.pe-lg-0.mb-4.mb-lg-0(style="place-self:center;")
+            .p-4.text-center.m-auto.text-white(style="background-color:#273A89;border-radius:30px;max-width:fit-content;min-width:200px;")
+              figure
+                img(src="@/assets/curso/tema3/14.svg" style="display:inline;max-width:50px;")
+              p.fw-bold.mb-0 PLANIFICACIÓN
+          .col-lg
+            .p-lg-4
+              p #[strong Plan de pruebas:] documento que describe un enfoque sistemático para probar un sistema.
+              p.mt-4.mb-0 #[strong Informe de resultados de pruebas:] organiza y presenta un análisis resumido de los resultados de las pruebas para su auditoría y evaluación. Este informe debe incluir un listado de defectos detectados, la cantidad y tipos de pruebas elaboradas, así como su complejidad y los tipos de pruebas realizadas. 
+      .cont_3_4_2.p-4.p-lg-0(data-aos="zoom-in")
+        .row
+          .col-lg-auto.pe-lg-0.mb-4.mb-lg-0(style="place-self:center;")
+            .p-4.text-center.m-auto.text-white(style="background-color:#273A89;border-radius:30px;max-width:fit-content;min-width:200px;")
+              figure
+                img(src="@/assets/curso/tema3/15.svg" style="display:inline;max-width:50px;")
+              p.fw-bold.mb-0 CONSTRUCCIÓN
+          .col-lg
+            .p-lg-4
+              p #[strong Caso de prueba:] conjunto de condiciones con las cuales un tester debe determinar si un sistema funciona según lo requerido. 
+              p.mt-4.mb-0 #[strong #[em Script] de prueba:] recopilación de instrucciones que se realizan al #[em software] sujeto a prueba para verificar que el sistema funciona de acuerdo con lo requerido. Hay scripts de pruebas automatizadas y manuales.
+      .cont_3_4_3.p-4.p-lg-0(data-aos="zoom-in")
+        .row
+          .col-lg-auto.pe-lg-0.mb-4.mb-lg-0(style="place-self:center;")
+            .p-4.text-center.m-auto.text-white(style="background-color:#273A89;border-radius:30px;max-width:fit-content;min-width:200px;")
+              figure
+                img(src="@/assets/curso/tema3/16.svg" style="display:inline;max-width:50px;")
+              p.fw-bold.mb-0 EJECUCIÓN
+          .col-lg
+            .p-lg-4
+              p #[strong Resultado de la ejecución de pruebas:] recopilación de la información relacionada con los resultados de la ejecución de cada script de prueba, determinando si tuvieron una salida exitosa o un problema, respecto al comportamiento que debería tener. 
+              p.mt-4.mb-0 #[strong Defectos:] un error produce un defecto y un defecto produce un fallo.
+    
+    Separador
+
+    .titulo-segundo(data-aos="zoom-in-right")
+      h2#t_3_2 3.2  Aplicar los instrumentos de calidad de #[em software]
+    
+    p(data-aos="fade-left") En la elaboración de un plan de pruebas se deben tener claros los requerimientos de usuario que forman la iteración o proyecto, por lo tanto, se debe analizar la información de la especificación de requisitos, la matriz de trazabilidad, especificaciones y diseño funcional, casos de uso, requisitos no funcionales, prototipado e historias de usuario en el caso de metodologías ágiles.
+
+    .cont_3_5.mt-4.pt-4.pb-4
+      .cont_titulo_decorativo(data-aos="fade-right")
+        .row
+          .col-auto.pe-0
+            figure.ps-2
+              img(src="@/assets/curso/tema2/2.svg")
+          .col(style="place-self:center;")
+            h4.mb-0.pe-4(style="padding-top:7px;") Implementación del plan de pruebas
+      p(data-aos="fade-left") El plan de pruebas es un documento que describe un conjunto de procedimientos, técnicas y normas para probar un sistema como podemos ver a continuación:
+      .row.mt-5
+        .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
+          ol.lista-ol--cuadro
+            li.d-flex
+              .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+                span.fw-bold(style="color:initial;") 1
+              div Debe contener el nombre del sistema a probar, el nombre del documento y la versión.
+            li.d-flex
+              .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+                span.fw-bold(style="color:initial;") 2
+              div Especificar en qué consiste el sistema y cuál sistema se va a probar. También se incluye y describe el alcance de las pruebas.
+            li.d-flex
+              .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+                span.fw-bold(style="color:initial;") 3
+              div En esta parte se listan los tipos de prueba a realizar y los requerimientos a probar en el proceso. Se específica y describe las características a probar y las que no se van a probar.
+            li.d-flex
+              .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+                span.fw-bold(style="color:initial;") 4
+              div Representa el enfoque recomendado para la comprobación de las aplicaciones.
+            li.d-flex
+              .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+                span.fw-bold(style="color:initial;") 5
+              div En esta parte se especifican los criterios de entrada y salida de la aplicación al área de Aseguramiento de Calidad de #[em Software] (SQA).
+            li.d-flex
+              .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+                span.fw-bold(style="color:initial;") 6
+              div Se describen las actividades (plan, diseño, implementación y ejecución de pruebas, así como la evaluación de los resultados) que realizarán el equipo de SQA.
+            li.d-flex
+              .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+                span.fw-bold(style="color:initial;") 7
+              div Se describe el informe de resultados de prueba y los defectos detectados durante el esfuerzo de pruebas.
+            li.d-flex
+              .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+                span.fw-bold(style="color:initial;") 8
+              div Describe los recursos del sistema.
+            li.d-flex
+              .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+                span.fw-bold(style="color:initial;") 9
+              div Describe las características del personal requerido para el esfuerzo de pruebas, así como las necesidades de entrenamiento.
+            li.d-flex
+              .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+                span.fw-bold(style="color:initial;") 10
+              div En este punto se plantean las fechas estimadas de inicio y fin de las principales actividades de prueba.
+            li.d-flex
+              .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+                span.fw-bold(style="color:initial;") 11
+              div En este punto se plantean los riesgos identificados al momento de la planificación y su estrategia de mitigación.
+        .col-lg-4(data-aos="fade-left")
+          figure.m-auto.col-6.col-md-5.col-lg-12
+            img(src="@/assets/curso/tema3/17.png")
+    
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Principales elementos para redactar un caso de prueba
+    p(data-aos="fade-left") La estructuración de un caso de prueba se convierte en una actividad sin dificultad, si tenemos la información necesaria para su proceso de elaboración, así mismo al momento de verificar un #[em software] es de mucho aporte, puesto que se transforma en una herramienta esencial en el proceso de registro, seguimiento y control. A continuación, en la siguiente tabla, se describen los elementos principales que debe contener un caso de prueba. 
+
+    .col-xl-8.col-lg-10.m-auto.mt-5
+      .titulo-sexto.color-acento-contenido(data-aos="zoom-in-down")
+        h5 Tabla 5.
+        span Principales elementos de una casos de prueba
+      .tabla-a.color-acento-botones(data-aos="zoom-in-up")
+        table(style="min-width:100%;")
+          thead(style="border:0;")
+            tr(style="background-color:#273A89;")
+              th.text-white.text-center(style="border:1px white solid;" width="40%") Elemento
+              th.text-white.text-center(style="border:1px white solid;") Descripción
+          tbody
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Identificador
+              td(style="border:1px white solid;") Puede ser alfanumérico o numérico.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Nombre
+              td(style="border:1px white solid;") Nombre del caso de prueba de manera concisa.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Descripción
+              td(style="border:1px white solid;") Objetivo del caso de prueba, también describe qué probará; en ciertas ocasiones se incluye el ambiente de pruebas.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Numero de orden ejecución 
+              td(style="border:1px white solid;") Orden en la cual se ejecuta el caso de prueba, en la situación de que se tengan múltiples casos de prueba.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Requerimiento asociado
+              td(style="border:1px white solid;") Si se plantea un caso de prueba se debe saber a qué requerimiento va asociado para mantener la trazabilidad.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Precondición
+              td(style="border:1px white solid;") Estado en la cual se debe encontrar el sistema antes de comenzar la prueba.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Postcondición
+              td(style="border:1px white solid;") El estado en que debe encontrarse el sistema luego de ejecutar la prueba.
+            tr(style="background-color:#DCECFE;")
+              td.text-center(style="border:1px white solid;") Resultado esperado
+              td(style="border:1px white solid;") Objetivo que debe ser alcanzado posterior a la prueba.
+    
+    .cont_3_6.mt-4.pt-5.pb-4
+      .cont_titulo_decorativo(data-aos="fade-right")
+        .row
+          .col-auto.pe-0
+            figure.ps-2
+              img(src="@/assets/curso/tema2/2.svg")
+          .col(style="place-self:center;")
+            h4.mb-0.pe-4(style="padding-top:7px;") Principales elementos para redactar un #[em script] de prueba
+      p(data-aos="fade-left") Este artefacto es responsabilidad del tester, siendo este quien lo escribe y lo ejecuta. A continuación, se nombran los principales elementos que debe contener un #[em script] de prueba:
+      .col-xl-9.m-auto.mt-4
+        .row.justify-content-center
+          .col-lg-4.mb-4.col-md-8(data-aos="zoom-in")
+            .h-100.text-white.text-center.p-4.cont_figura_decorativa_1.pt-lg-5.pb-lg-5(style="border-radius:15px;")
+              figure
+                img(src="@/assets/curso/tema3/19.svg" style="max-width:90px;display:inline;")
+              h5.mt-4 Nombre
+              p.mb-0 Identificador único para el #[em script].
+          .col-lg-4.mb-4.col-md-8(data-aos="zoom-in")
+            .h-100.text-white.text-center.p-4.cont_figura_decorativa_1.pt-lg-5.pb-lg-5(style="border-radius:15px;")
+              figure
+                img(src="@/assets/curso/tema3/20.svg" style="max-width:90px;display:inline;")
+              h5.mt-4 Descripción
+              p.mb-0 Describe el objetivo del #[em script] de pruebas.
+          .col-lg-4.mb-4.col-md-8(data-aos="zoom-in")
+            .h-100.text-white.text-center.p-4.cont_figura_decorativa_1.pt-lg-5.pb-lg-5(style="border-radius:15px;")
+              figure
+                img(src="@/assets/curso/tema3/21.svg" style="max-width:90px;display:inline;")
+              h5.mt-4 Pasos
+              p.mb-0 Acciones que se van ejecutando en la aplicación. 
+          .col-lg-4.mb-4.col-md-8(data-aos="zoom-in")
+            .h-100.text-white.text-center.p-4.cont_figura_decorativa_1.pt-lg-5.pb-lg-5(style="border-radius:15px;")
+              figure
+                img(src="@/assets/curso/tema3/21.svg" style="max-width:90px;display:inline;")
+              h5.mt-4 Puntos de verificación
+              p.mb-0 Son las observaciones puntuales que se realizan durante la ejecución de las pruebas para verificar que el producto cumple con los requerimientos específicos.
+          .col-lg-4.mb-4.col-md-8(data-aos="zoom-in")
+            .h-100.text-white.text-center.p-4.cont_figura_decorativa_1.pt-lg-5.pb-lg-5(style="border-radius:15px;")
+              figure
+                img(src="@/assets/curso/tema3/22.svg" style="max-width:90px;display:inline;")
+              h5.mt-4 Resultado esperado
+              p.mb-0 Por cada punto de verificación puede haber un resultado esperado asociado.
+    
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Creación del plan de pruebas para proyectos ágiles (#[em Agile Testing])
+    p(data-aos="fade-left") Un #[em release] define funcionalidades que ya están disponibles para el cliente. Por lo tanto, una planificación de un #[em release] tiene ciertos elementos:
+
+    .row.mt-5
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
+        TabsA.color-acento-botones
+          .tarjeta.color-acento-botones.p-4(titulo="Alcance" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Alcance
+            p(style="color:#12263F;") Se incluye el propósito del #[em(style="color:#12263F;") release] y las historias de usuario.
+          .tarjeta.color-acento-botones.p-4(titulo="Suposiciones" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Suposiciones
+            p(style="color:#12263F;") Se incluyen los supuestos del proyecto.
+          .tarjeta.color-acento-botones.p-4(titulo="Análisis de <br> riesgos" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Análisis de riesgos
+            p(style="color:#12263F;") Define qué se incluye en la automatización de pruebas.
+          .tarjeta.color-acento-botones.p-4(titulo="Automatización <br> de pruebas" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Automatización de pruebas
+            p(style="color:#12263F;") Define qué se incluirá en la automatización.
+          .tarjeta.color-acento-botones.p-4(titulo="Ambiente <br> de pruebas" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Ambiente de pruebas
+            p(style="color:#12263F;") Define qué se necesita en relación al ambiente de pruebas.
+          .tarjeta.color-acento-botones.p-4(titulo="Datos de las <br> pruebas - <br> Resultados de <br> las pruebas" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Datos de las pruebas - Resultados de las pruebas
+            p(style="color:#12263F;") Se establecen los datos arrojados en cada una de las pruebas, junto con los resultados encontrados.
+      .col-lg-5(data-aos="fade-left")
+        figure.m-auto.col-6.col-md-6.col-lg-12
+          img(src="@/assets/curso/tema3/24.svg")
+    
+    p.mt-5(data-aos="fade-right") Estos elementos se describen en un plan de pruebas, sin embargo, es posible que en los equipos se tome la decisión de no diseñarlo, en ese sentido se recomienda que los tester tomen notas o documente los factores más importantes relacionados con las pruebas en cada #[em release].
+
+    .row.mt-5
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        figure.m-auto.col-6.col-md-5.col-lg-12
+          img(src="@/assets/curso/tema3/25.svg")
+      .col-lg-8(data-aos="fade-left" style="place-self:center;")
+        p Para realizar pruebas de #[em software] en una metodología ágil, comenzamos por redactar el plan de pruebas, teniendo en cuenta qué se puede actualizar en cada sprint.
+        p.mt-4 Un plan de pruebas ágiles debe incluir:
+        ol.lista-ol--cuadro.mt-3.ps-3.ps-md-4
+          li.d-flex
+            .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+              span.fw-bold(style="color:initial;") 1
+            div Introducción.
+          li.d-flex
+            .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+              span.fw-bold(style="color:initial;") 2
+            div Alcance.
+          li.d-flex
+            .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+              span.fw-bold(style="color:initial;") 3
+            div Recursos en este caso el nombre de los tester.
+          li.d-flex
+            .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+              span.fw-bold(style="color:initial;") 4
+            div Descripción de funcionalidades a probar.
+          li.d-flex
+            .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+              span.fw-bold(style="color:initial;") 5
+            div Los tipos de pruebas (pruebas de rendimiento, pruebas de aceptación (UAT)) que se van a realizar.
+          li.d-flex
+            .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+              span.fw-bold(style="color:initial;") 6
+            div Infraestructura lista.
+          li.d-flex
+            .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
+              span.fw-bold(style="color:initial;") 7
+            div Suposiciones, plan de riesgos y los entregables que se producirán al final.
+    
+    Separador
+
+    .titulo-segundo(data-aos="zoom-in-right")
+      h2#t_3_3 3.3  Análisis y entrega de resultados
+    
+    p(data-aos="fade-left") Una vez ejecutadas las pruebas, se deben analizar los resultados y los fallos detectados, teniendo en cuenta el reporte de defectos y directrices para detectarlos y el informe de resultados de pruebas. Para ello se puede realizar lo descrito a continuación:
+
+    .row.mt-5
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        figure.m-auto.col-6.col-md-5.col-lg-12
+          img(src="@/assets/curso/tema3/26.png")
+      .col-lg-8(data-aos="fade-left" style="place-self:center;")
+        TabsA.color-acento-botones
+          .tarjeta.color-acento-botones.p-4(titulo="Impacto" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Impacto
+            p(style="color:#12263F;") Analizar el impacto del defecto.
+          .tarjeta.color-acento-botones.p-4(titulo="Problema" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Problema
+            p(style="color:#12263F;") Investigar el problema, en qué condiciones se produce este fallo.
+          .tarjeta.color-acento-botones.p-4(titulo="Severidad" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Severidad
+            p(style="color:#12263F;") Analizar la severidad, si es alta o baja.
+          .tarjeta.color-acento-botones.p-4(titulo="Pasos" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Pasos
+            p(style="color:#12263F;") Variar los pasos realizados, se pueden ejecutar en orden diferente para observar si existe alguna variante en el resultado esperado.
+          .tarjeta.color-acento-botones.p-4(titulo="Configuración" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Configuración
+            p(style="color:#12263F;") Variar opciones de configuración; si estamos probando una aplicación #[em(style="color:#12263F;") web] podemos probar con diferentes navegadores.
+          .tarjeta.color-acento-botones.p-4(titulo="Condiciones" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Condiciones
+            p(style="color:#12263F;") Determinar condiciones específicas bajo las cuales se reproduce el defecto. Si estamos probando entradas de datos, probar con diferentes datos, es decir, se va a tener más información sobre cómo se reproduce el defecto, si por ejemplo, en los campos numéricos se prueba números positivos y negativos.
+        
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Incidencias detectadas
+    p(data-aos="fade-left") La gestión de incidencias es un elemento central e importante en el proceso de calidad de #[em software], puesto que es en este punto donde se tienen en cuenta los errores (bugs). Por lo tanto, el propósito de las incidencias detectadas es precisamente generar su corrección, de tal manera que sea mínimamente probable que el error se repita.
+
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Ciclo de vida de una incidencia
+    p(data-aos="fade-left") Un sistema de gestión de incidentes debe manejar los errores de #[em software] teniendo en cuenta el proceso. Este se adapta a proyectos de #[em software] en fase de desarrollo, más no en ambiente de producción. 
+
+    .col-xl-10.m-auto.mt-5
+      .titulo-sexto.color-acento-contenido(data-aos="zoom-in-down")
+        h5 Figura 5.
+        span Ciclo de vida de una incidencia de #[em software] (bug)
+      .cont_image_3_1.mt-4.p-3.p-lg-5(data-aos="zoom-in-up")
+        figure
+          img(src="@/assets/curso/tema3/28.svg")
+
+
+
+
+
 
 
 </template>
@@ -101,6 +496,82 @@ export default {
   bottom: 7%
   background: url(../assets/curso/tema3/4.png)
   background-size: cover
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  color: #12263F
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
+  color: #12263F
+.cont_3_3, .cont_3_3 *
+ position: relative
+.cont_3_3:before
+  position: absolute
+  content: ''
+  width: 125%
+  left: -15%
+  height: 100%
+  top: 0
+  background: url(../assets/curso/tema3/9.png)
+  background-size: cover
+  background-position: center
+.cont_3_4_1, .cont_3_4_1 *
+  position: relative
+.cont_3_4_1:before
+  content: ''
+  position: absolute
+  width: 90%
+  height: 100%
+  top: 0
+  right: 0
+  border-radius: 15px 15px 0px 0px
+  background-color: #ADD3FD
+.cont_3_4_2, .cont_3_4_2 *
+  position: relative
+.cont_3_4_2:before
+  content: ''
+  position: absolute
+  width: 90%
+  height: 100%
+  top: 0
+  right: 0
+  background-color: #DCECFE
+.cont_3_4_3, .cont_3_4_3 *
+  position: relative
+.cont_3_4_3:before
+  content: ''
+  position: absolute
+  width: 90%
+  height: 100%
+  top: 0
+  right: 0
+  border-radius: 0px 0px 15px 15px
+  background-color: #ADD3FD
+.cont_3_5, .cont_3_5 *
+  position: relative
+.cont_3_5:before
+  content: ''
+  position: absolute
+  width: 125%
+  left: -15%
+  height: 100%
+  top: 0
+  background-color: #E1F6EF
+.cont_3_6, .cont_3_6 *
+  position: relative
+.cont_3_6:before
+  content: ''
+  position: absolute
+  width: 125%
+  left: -15%
+  height: 100%
+  top: 0
+  background-color: #DCECFE
+.cont_figura_decorativa_1
+  background: url(../assets/curso/tema3/18.png)
+  background-size: cover
+  background-position: right
+.cont_image_3_1
+  background: url(../assets/curso/tema3/27.png)
+  background-size: cover
+  background-position: center
 @media screen and (max-width: 992px)
   .cont_3_1:before
     height: 100%
@@ -110,4 +581,6 @@ export default {
     background: url(../assets/curso/tema3/3.png)
     background-size: cover
     background-position: center
+  .cont_3_4_1:before, .cont_3_4_2:before, .cont_3_4_3:before
+    width: 100%
 </style>
