@@ -878,10 +878,583 @@
                 p.mb-0 Instalación.
                 p.mb-0 Coexistencia.
                 p.mb-0 Reemplazo.
+    
+    Separador
 
+    .titulo-segundo(data-aos="zoom-in-right")
+      h2#t_2_6 2.6  Calidad del #[em software] relacionada con el producto 
+    
+    .row
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
+        p Los clientes determinan según su percepción, que el producto #[em software] satisface sus necesidades y expectativas a partir de aplicar un proceso de calidad de #[em software], puesto que se establecen actividades para asegurar que el desarrollo de #[em software] en todos los proyectos es de calidad. Por otra parte, el propósito de asegurar la calidad de un producto es detectar diversos problemas en las fases iniciales del desarrollo del #[em software], estimando que es menos costoso su corrección. Cabe aclarar que la calidad de #[em software] de un producto puede medirse una vez en la fase de implementación o terminado completamente o cuando el producto está en producción, no obstante, este hecho implicaría amplios costos para la compañía de #[em software] a diferencia de detectar y resolver los problemas en las fases iniciales como el diseño, o en los requerimientos que generaría una reducción de los costos en cuanto a los cambios a realizar.
+        .p-4.mt-4(style="background-color:#DEE1ED;border-radius:7px;")
+          p Una de varias funciones de la calidad de #[em software] es establecer estándares, procesos y planes, con el objetivo de satisfacer las políticas de la organización y se ajusten a las necesidades de cada proyecto en particular, para asegurar la calidad del producto #[em software], por lo tanto, la calidad del #[em software] está dividida en:
+          ul.lista-ul.mt-3.ps-3.mb-0
+            li.d-flex
+              i.far.fa-file-code(style="color:#1682FB;")
+              div La calidad del producto obtenido.
+            li.d-flex.mb-0
+              i.far.fa-file-code(style="color:#1682FB;")
+              div La calidad del proceso de desarrollo.
+      .col-lg-4(data-aos="fade-left")
+        figure.m-auto.col-6.col-md-5.col-lg-12
+          img(src="@/assets/curso/tema2/44.png")
+    
+    p.mt-5(data-aos="fade-right") Las anteriores dependen una de otra, puesto que para alcanzar calidad en un producto es pertinente que haya calidad en el proceso de desarrollo. El objetivo que se determine para la calidad del producto, establecerá los propósitos del proceso de desarrollo. Los requerimientos de calidad más significativos del proceso de #[em software] son:
 
+    .col-xl-10.m-auto.mt-4
+      .p-4.mt-4(style="background-color:#E1F6EF;border-radius:12px;")
+        .row
+          .col-auto(style="place-self:center;")
+            figure
+              img(src="@/assets/curso/tema2/45.svg")
+          .col(style="place-self:center;")
+            ul.lista-ul
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB;")
+                div Que genere los resultados esperados.
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB;")
+                div Los resultados deberán estar basados en definiciones correctas.
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB;")
+                div Los resultados deberán ser mejorados teniendo en cuenta los objetivos del negocio.
+    
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Factores que afectan o determinan la calidad del #[em software]
+    
+    p(data-aos="fade-left") El objetivo general de la ingeniería del #[em software], es la producción de #[em software] con capacidad para realizar con exactitud las tareas expresadas en su especificación, y esta calidad puede ser considerada desde dos perspectivas diferentes: la óptica del desarrollador y la del cliente o usuario final. Los factores que afectan al desarrollador se denominan externos e interno. 
+    p.mt-4(data-aos="fade-right") A continuación, se presenta una breve explicación de cada uno de ellos:
 
+    .cont_2_10.pt-4.pt-lg-5.pb-lg-5.mt-4
+      SlyderF(columnas="col-lg-6 col-xl-4")
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/47.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Corección
+          p.text-center.mt-4 Nivel en que un #[em software] satisface las especificaciones y logra los objetivos propuestos por el cliente; lo anterior responde a la pregunta: ¿el #[em software] hace lo que yo quiero?
 
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/48.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Fiabilidad
+          p.text-center.mt-4 Nivel en que se puede esperar que un programa realice sus funciones esperadas con la precisión requerida; lo anterior responde a la pregunta: ¿el sistema está apto para usarse?
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/49.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Eficiencia
+          p.text-center.mt-4 Cantidad de recursos de máquina y de código requeridos por un programa para efectuar sus funciones; este factor responde a la pregunta ¿se ejecutará en mi #[em hardware] con eficiencia? 
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/50.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Integridad
+          p.text-center.mt-4 Nivel en el que puede controlarse el acceso al #[em software] o a los datos por personal que no es autorizado; este factor responde a la pregunta: ¿el #[em software] es seguro?
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/51.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Seguridad
+          p.text-center.mt-4 Disponibilidad de instrumentos que permiten controlar y proteger los programas y los datos.
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/52.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Reusabilidad
+          p.text-center.mt-4 Nivel de trabajo solicitado para que el #[em software] o alguna de sus partes pueda reutilizarse en otras aplicaciones. Este factor responde a la pregunta: ¿podré reutilizar alguna parte del programa para construir otro proyecto? 
+
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/53.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Exactitud
+          p.text-center.mt-4 Nivel de precisión de los cálculos y del control que tiene el programa al ejecutar sus funciones.
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/54.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Completitud
+          p.text-center.mt-4 Nivel en que se ha obtenido una total implementación de las funciones solicitadas.
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/55.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Flexibilidad
+          p.text-center.mt-4 Trabajo necesario para modificar un programa que ya está en funcionamiento u operación. Este factor responde a la pregunta: ¿puede ser modificado de manera fácil?
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/56.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Portabilidad
+          p.text-center.mt-4 Trabajo necesario para migrar el programa desde un hardware o un entorno de sistemas a otro ambiente u otro hardware; este factor responde a la pregunta: ¿podré usarlo en otra máquina o con otra configuración distinta a la máquina donde se desarrolló? 
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/57.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Consistencia
+          p.text-center.mt-4 Consiste en utilizar un diseño semejante y técnicas de documentación en el transcurso del proyecto de desarrollo de #[em software].
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/58.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Facilidad de uso
+          p.text-center.mt-4 Trabajo necesario para aprender a utilizar un programa y que además sabe preparar su entrada e interpretar su salida. 
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/59.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Facilidad de mantenimiento
+          p.text-center.mt-4 Trabajo necesario para ubicar y arreglar un error en un programa; este factor responde a la pregunta: ¿permite ser corregido de manera fácil?
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/60.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Facilidad de prueba
+          p.text-center.mt-4 Nivel de trabajo requerido para probar un programa de forma que asegure la ejecución de las funciones solicitadas.
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/61.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Facilidad de interoperabilidad
+          p.text-center.mt-4 Nivel de trabajo necesario para acoplar un sistema a otro; lo anterior responde a la pregunta: ¿podrá interactuar con otros sistemas?
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/62.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Facilidad de auditoría
+          p.text-center.mt-4 Se concentra en la facilidad en que se puede comprobar la conformidad con los estándares.
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/63.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Normalización de las comunicaciones
+          p.text-center.mt-4 Nivel en que se utiliza el ancho de banda, las interfaces estándar y los protocolos.
+        
+        .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/tema2/64.svg')
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Tolerancia a los errores
+          p.text-center.mt-4 Percance que se ocasiona cuando el programa encuentra un error.
+    
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Costo de los defectos
+    
+    p(data-aos="fade-left") Los costos de calidad son importantes para conseguir productos de calidad. Por lo que se establecen actividades para prevenir, mejorar o detectar la baja calidad que puede haber en los productos #[em software].
+    
+    .row.mt-4
+      .col-lg-4.col-xl-3.mb-4.mb-lg-0(data-aos="fade-right")
+        figure.m-auto.col-6.col-md-5.col-lg-12
+          img(src="@/assets/curso/tema2/65.svg")
+      .col-lg-8.col-xl-9(data-aos="fade-left")
+        p En la aplicación de la calidad de #[em software], generalmente los ingenieros o empresas comienzan a realizar pruebas y a detectar defectos en el momento en que la aplicación ha sido totalmente construida lo cual no es una acción correcta.
+        .p-4.mt-4(style="background-color:#E1F6EF;border-radius:7px;")
+          p.fw-bold Conclusión de los factores que afectan o determinan la calidad del #[em software]
+          p.mt-4.mb-0 Cuando calificamos la calidad de un producto se debe elegir los factores que van a ser estimados como requerimientos, por lo tanto, para realizar esta elección se debe tener en cuenta las propiedades particulares de la aplicación a desarrollar o de su ambiente, como ejemplo podemos observar que si la aplicación se desarrolla para un ambiente en el que el hardware evoluciona rápidamente entonces debemos tener en cuenta el factor de portabilidad, por otro lado si se espera que las especificaciones del sistema cambien frecuentemente entonces el factor flexibilidad va a ser importante. Otro punto que se debe tener en cuenta es el costo de los factores de calidad frente al beneficio que van a proporcionar (análisis de costo/beneficio), es decir que si agregamos todos los factores implicaría un incremento amplio de los costos, en lugar de lo anterior es prudente seleccionar los factores que logren contribuir el mayor valor posible al producto.
+    
+    Separador
+
+    .titulo-segundo(data-aos="zoom-in-right")
+      h2#t_2_7 2.7  Calidad relacionada con las personas
+    
+    .row
+      .col(data-aos="fade-right" style="place-self:center;")
+        p La mejora de la calidad de #[em software] contiene procesos que ayudan a que los ingenieros de #[em software] manejen, controlen y mejoren el trabajo, teniendo también la oportunidad de construir equipos auto dirigidos y ser participantes efectivos del mismo, pero se debe tener en cuenta que primero deben tener el conocimiento para controlar y mejorar su trabajo, y después tener el conocimiento para trabajar en equipo. Por lo anterior el ingeniero podrá plantear mucho mejor el trabajo, medir la calidad del producto, mejorar las técnicas y determinar las medidas estándares para desempeño y calidad. En la calidad relacionada con las personas se establecen dos procesos PSP y TSP que proporcionan métodos detallados de planificación y estimación.
+      .col-auto.d-none.d-lg-block(data-aos="fade-left" style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema2/66.svg")
+    
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") PSP/TSP
+    
+    p(data-aos="fade-left") #[em Personal Software Process] (PSP) es un proceso diseñado para ayudar a los ingenieros de #[em software] en el control, manejo y mejora del trabajo que realizan, el cual está basado en la calidad del #[em software]; para el caso de #[em Team Software Process] (TSP) es un marco para el desarrollo de #[em software] que pone igual énfasis en el proceso, producto y trabajo en equipo.
+
+    .row.mt-4
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+        figure.m-auto.col-8.col-md-7.col-lg-12
+          img(src="@/assets/curso/tema2/67.png")
+      .col-lg-8(data-aos="fade-left")
+        p El PSP tiene un proceso definido que ayuda a realizar mejor los trabajos, con el fin de reportar y conseguir datos completos y precisos del trabajo que se efectúa de manera individual, por lo tanto, mejora el desempeño personal, afectando de esta forma el trabajo del equipo. Por otro lado, contiene una serie de prácticas exactas para la mejora de la productividad personal y la gestión del tiempo de los ingenieros de #[em software] o desarrolladores, en actividades de mantenimiento de sistemas y desarrollo. Está planteado para ser utilizado en modelos de procesos CMMI o ISO 15504 y está orientado tanto a estudiantes como a ingenieros juniors.
+    
+    p.mt-5(data-aos="fade-right") El proceso de esta metodología se clasifica en tres fases:
+
+    .tarjeta.tarjeta--azul.p-4.p-lg-5.pb-lg-4.cont_slyder_2_1(style="border-radius:0px;")
+      SlyderA(tipo="b")
+        .row.col-xl-11.m-auto
+          .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
+            h4(style="color:#FFCE00;") Fase 1 – Planeación
+            .text-white
+              p Se realiza el plan que guiará el proceso, por lo tanto, se establecen dos actividades:
+              ul.lista-ul.mt-3.ps-3
+                li.d-flex
+                  i.far.fa-file-code(style="color:#3EE2A8 !important;")
+                  div Análisis para obtener los requerimientos del #[em software].
+                li.d-flex
+                  i.far.fa-file-code(style="color:#3EE2A8 !important;")
+                  div Estimación de recursos, en la cual se realiza un cálculo del tiempo que se requiere para poder desarrollar el programa.
+          .col-lg-4(style="place-self:center;")
+            figure.m-auto.col-7.col-md-6.col-lg-12
+              img(src='@/assets/curso/tema2/69.png')
+        .row.col-xl-11.m-auto
+          .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
+            h4(style="color:#FFCE00;") Fase 2 – Desarrollo
+            .text-white
+              p En esta fase se tienen en cuenta las siguientes actividades:
+              ul.lista-ul.mt-3.ps-3
+                li.d-flex
+                  i.far.fa-file-code(style="color:#3EE2A8 !important;")
+                  div #[strong Diseño:] se hace revisión de los requerimientos para poder producir un diseño que verifique el cumplimiento de los mismos, por otro lado, si es el caso, se debe efectuar un registro de cualquier defecto encontrado en la definición de requerimientos.
+                li.d-flex
+                  i.far.fa-file-code(style="color:#3EE2A8 !important;")
+                  div #[strong Codificación:] se implementa el diseño siguiendo el estándar de codificación y se documenta el tiempo en el registro.
+          .col-lg-4(style="place-self:center;")
+            figure.m-auto.col-7.col-md-6.col-lg-12
+              img(src='@/assets/curso/tema2/70.png')
+        .row.col-xl-11.m-auto
+          .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
+            h4(style="color:#FFCE00;") Fase 3 – Fase de #[em(style="color:#FFCE00;") postmortem]
+            .text-white
+              p Se realiza un reporte que es utilizado para documentar detalles importantes de una actividad. Por ejemplo, que problemas surgieron y cómo se solucionaron. 
+              p.mt-4 En esta fase se tienen en cuenta las siguientes actividades:
+              ul.lista-ul.mt-3.ps-3
+                li.d-flex
+                  i.far.fa-file-code(style="color:#3EE2A8 !important;")
+                  div Registro de defectos: se hace revisión del resumen del plan de proyecto y se verifica que los defectos encontrados en cada fase de proyecto fueran registrados.
+                li.d-flex
+                  i.far.fa-file-code(style="color:#3EE2A8 !important;")
+                  div Consistencia de información de defectos: se hace revisión de la información de cada defecto registrado el cual debe ser preciso y completado.
+                li.d-flex
+                  i.far.fa-file-code(style="color:#3EE2A8 !important;")
+                  div Tiempo: se hace revisión de posibles errores u omisiones en el registro del tiempo.
+          .col-lg-4(style="place-self:center;")
+            figure.m-auto.col-7.col-md-6.col-lg-12
+              img(src='@/assets/curso/tema2/71.png')
+    
+    .p-4.mt-4(style="background-color:#ADD3FD;border-radius:7px;" data-aos="zoom-in")
+      .row
+        .col-auto(style="place-self:center;")
+          figure
+            img(src="@/assets/curso/tema2/72.svg")
+        .col(style="place-self:center;")
+          p.mb-0 En cada fase se realiza un criterio de entrada, en la cual se describe el problema, el plan del proyecto y registros de tiempo. En los criterios de salida se realizan los reportes y se tiene en cuenta la documentación que se realizó durante el proyecto.
+    
+    p.mt-4(data-aos="fade-right") A continuación, se nombran los formatos utilizados en #[strong(style="color:#1682FB;") PSP] y que se fundamentan generalmente en dos medidas importantes: 
+
+    ul.lista-ul.mt-3.ps-3(data-aos="fade-up")
+      li.d-flex
+        i.far.fa-file-code(style="color:#1682FB !important;")
+        div El tiempo que se emplea en cada fase.
+      li.d-flex
+        i.far.fa-file-code(style="color:#1682FB !important;")
+        div Los defectos que se encuentran en cada fase.
+    
+    TabsC.color-acento-contenido.mt-5
+      .py-3.py-md-4(titulo="Formato de registro de tiempo")
+        .row.col-xl-11.m-auto
+          .col-lg-5.mb-4.mb-lg-0
+            h4 Formato de registro de tiempo
+            p.mt-4 El objetivo de este formato es registrar el tiempo que se emplea en cada fase del proyecto. No obstante, los datos se utilizan para completar el resumen del plan del proyecto. El tiempo se registra en minutos y deben ser exactos.
+            p.mt-4 Un formato de registro de tiempo, debe contener los elementos mostrados en la siguiente figura:
+          .col-lg-7(style="place-self:center;")
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 1.
+              span Ejemplo formato de registro de tiempo
+            figure.mt-4
+              img(src='@/assets/curso/tema2/73.svg' alt="La imagen presenta un ejemplo de un formato del registro de tiempo.")
+      .py-3.py-md-4(titulo="Formato de registro de defectos")
+        .row.col-xl-11.m-auto
+          .col-lg-5.mb-4.mb-lg-0
+            h4 Formato de registro de defectos
+            p.mt-4 El objetivo de realizar este registro de defectos está en fomentar la mejora continua en cada proyecto que se realice.
+            p.mt-4 Un formato de registro de defectos, debe contener los elementos que se muestran a continuación
+          .col-lg-7(style="place-self:center;")
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 2.
+              span Ejemplo formato de registro de defectos
+            figure.mt-4
+              img(src='@/assets/curso/tema2/74.svg' alt="La imagen presenta un ejemplo de formato de registro de defectos.")
+      .py-3.py-md-4(titulo="Resumen del plan del proyecto")
+        .row.col-xl-11.m-auto
+          .col-lg-5.mb-4.mb-lg-0
+            h4 Resumen del plan del proyecto
+            p.mt-4 Este formato define un histórico de todos los proyectos realizados, en él se encuentran los datos que serán útiles en el proyecto siguiente, por lo tanto, es importante que los datos se redacten con precisión y calidad para tener un margen de comparación con futuros proyectos.
+            p.mt-4 Un formato de resumen del plan del proyecto debe contener los elementos mostrados en la siguiente figura:
+          .col-lg-7(style="place-self:center;")
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 3.
+              span Ejemplo resumen del plan del proyecto
+            figure.mt-4
+              img(src='@/assets/curso/tema2/75.svg' alt="La imagen presenta un resumen de un plan de proyecto, donde se presenta el tiempo en la fase, los defectos encontrados y los defectos removidos.")
+    
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") TSP
+    
+    p(data-aos="fade-left") #[em Team Software Process] (TSP) es un proceso de desarrollo que está diseñado para orientar a equipos de personas en la planeación, diseño y desarrollo de sistemas de software de calidad. Esta metodología administra el desarrollo de los procesos de #[em software], garantizando un entorno de trabajo natural y agradable para los equipos.
+    .row.mt-4
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        p El TSP contiene una serie de pasos estructurados con indicaciones para realizar las actividades en cada fase del desarrollo del proyecto, además es una herramienta útil referente a formación de equipos para el desarrollo de #[em software] de calidad, generando una planificación que permite determinar las responsabilidades y los roles en los equipos de trabajo. Para ello el TSP se basa en el PSP para formar profesionales con condiciones idóneas para la realización de proyectos demasiado grandes, además este marco contiene las características para generar planes detallados, utilizar datos de procesos, medir y gestionar la calidad del producto y detallar procesos operacionales.
+      .col-lg-5(data-aos="fade-left" style="place-self:center;")
+        figure.m-auto.col-8.col-md-6.col-lg-12
+          img(src="@/assets/curso/tema2/76.svg") 
+    
+    .row.mt-4
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        figure.m-auto.col-7.col-md-5.col-lg-12
+          img(src="@/assets/curso/tema2/77.png") 
+      .col-lg-8(data-aos="fade-left" style="place-self:center;")
+        p Los objetivos del TSP son:
+        ul.lista-ul.mt-4
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div Conformar equipos de tal forma que tengan la capacidad de registrar y planear su trabajo, constituir metas bien definidas y que tengan la aptitud para mejorar su propio trabajo a través de la medición del mismo.
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div Establecer un marco en base a PSP.
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div Establecer estándares para medir la calidad y el comportamiento.
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div Suministrar métricas para equipos.
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div Evaluar los equipos, las responsabilidades y los roles.
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div Guías para solución de problemas que se generen en los equipos.
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div Establecer una guía para que la mejora continua de procesos esté activa.
+    
+    p.mt-5(data-aos="fade-right") A continuación, se presentan las fases del ciclo de vida del TSP, donde se describe unas pautas para realizar un buen desarrollo de #[em software] en cabeza del equipo de trabajo.
+
+    .col-xl-8.m-auto.mt-5
+      ImagenInfografica.color-acento-botones.infografica_2_1
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/tema2/78.svg' data-aos="zoom-in-up")
+        .tarjeta.color-acento-botones.p-3(x="24%" y="83%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Lanzamiento
+          p.mb-0(style="color:#12263F;") En esta etapa se determinan las metas del equipo, se evalúan los objetivos, se establecen los roles y responsabilidades del equipo, se tienen en cuenta los requerimientos del cliente y la creación de estrategia para la finalización del proyecto.
+        .tarjeta.color-acento-botones.p-3(x="27%" y="60%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Estrategia
+          p.mb-0(style="color:#12263F;") En esta etapa se crea un modelo conceptual de lo que se necesita para generar soluciones óptimas, determinando las estimaciones y los riesgos.
+        .tarjeta.color-acento-botones.p-3(x="34%" y="41%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Planeación
+          p.mb-0(style="color:#12263F;") En esta etapa se generan los roles y las actividades de cada miembro del equipo.
+        .tarjeta.color-acento-botones.p-3(x="45.5%" y="28%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Requerimientos
+          p.mb-0(style="color:#12263F;") En esta fase se determinan entrevistas con el cliente, con el objetivo de concretar lo que es necesario producir en realidad. Desarrollar un plan de pruebas para el producto terminado previamente al análisis de los requerimientos.
+        .tarjeta.color-acento-botones.p-3(x="56%" y="28%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Diseño
+          p.mb-0(style="color:#12263F;") En esta etapa se desarrolla un plan de pruebas de integración, por lo tanto se especifica en un diseño, todos los detalles respecto a los procesos del producto. 
+        .tarjeta.color-acento-botones.p-3(x="65%" y="37%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Implementación
+          p.mb-0(style="color:#12263F;") En esta etapa el diseño se transfiere a nivel de código, realizando una revisión con el propósito de encontrar errores. También los módulos y las unidades se compilan y ejecutan con el propósito de analizar su calidad.
+        .tarjeta.color-acento-botones.p-3(x="71%" y="57%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Pruebas
+          p.mb-0(style="color:#12263F;") En esta etapa el producto está a punto de finalizar, posteriormente se procede a la integración de los módulos y la documentación para los usuarios finales, como son los manuales de uso. También se establecen las pruebas al #[em(style="color:#12263F;") software], con el objetivo de asegurar la calidad y poder así generar una evaluación en el desempeño del equipo de trabajo.
+        .tarjeta.color-acento-botones.p-3(x="75%" y="82%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;font-style:italic;") Postmortem
+          p.mb-0(style="color:#12263F;") En esta etapa se hace una evaluación de los resultados de las pruebas y del trabajo del equipo. Se redacta un reporte del ciclo de vida del proyecto a detalle.
+    
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") SCRUM
+    
+    p(data-aos="fade-left") SCRUM es un marco de trabajo ágil de muy amplio uso en la industria del software que se fundamenta en los valores y principios ágiles definidos en el Manifiesto Ágil (2001) y donde se definen tres pilares fundamentales (SCRUMstudy, 2013):
+
+    .row.mt-4
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        figure.m-auto.col-7.col-md-7.col-lg-12
+          img(src="@/assets/curso/tema2/79.png")
+      .col-lg-7(data-aos="fade-left" style="place-self:center;")
+        AcordionA.acordion1(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Transparencia")
+            p Hace referencia a que cualquier proceso de #[em Scrum] puede ser conocido por cualquiera. Esto es posible por medio de eventos como las reuniones de revisión y reuniones diarias, artefactos como la pila de producto, cronogramas de lanzamiento y documentos de visión del proyecto, e instrumentos de seguimiento como lo son el BurnDown Chart o el tablero de #[em Scrum] (#[em ScrumBoard]).
+          .row(titulo="Inspección")
+            p Permite que cualquiera puede estar enterado de las actividades realizadas por otros y en general conocer el estado actual de los procesos.
+          .row(titulo="Adaptación")
+            p Por medio de la transparencia y la inspección es posible fijar actividades de mejoras que permitan mejorar todo tipo de proceso, en pro de lograr más altos estándares de calidad. 
+    
+    p.mt-5(data-aos="fade-right") Adicionalmente, este marco de trabajo ágil, está estructurado por un conjunto de roles, eventos y artefactos como se observa en la siguiente figura.
+
+    .col-xl-10.m-auto.mt-4
+      .row
+        .col-lg.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+          p Dentro del equipo, hay roles que se dividen en dos categorías fundamentales: los roles centrales que hacen referencia a los requeridos obligatoriamente para la creación de un producto, están altamente comprometidos y de los cuales depende el éxito o no de un proyecto, y también están los roles no centrales que hace referencia a todos el personal interesado en el proyecto, pueden interactuar con el equipo pero no son los responsables del éxito del mismo, dentro de esta categoría entran los #[em stakeholders], directivos, gerentes, #[em marketing], asesores, etc.
+        .col-lg(data-aos="fade-left" style="place-self:center;")
+          figure.m-auto.col-10.col-md-8.col-lg-12
+            img(src="@/assets/curso/tema2/80.svg")
+    
+    p.mt-5(data-aos="fade-right") Existen tres roles centrales dentro del marco de trabajo de Scrum:
+
+    .row.mt-4.justify-content-center
+      .col-lg.col-md-8.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.p-4.cont_hover1(style="background-color:#DCECFE;border-radius:12px;")
+          .text-end 
+            figure.cont_image_hover1
+              img(src="@/assets/curso/tema2/39.svg" style="max-width:60px;display:inline;")
+            figure.cont_image_hover2(style="display:none;")
+              img(src="@/assets/curso/tema2/40.svg" style="max-width:60px;display:inline;")
+          figure
+            img(src="@/assets/curso/tema2/81.svg" style="max-width:90px;display:inline;")
+          h4.mt-4 Dueño del producto (#[em Product Owner])
+          p.mt-3 Persona con amplio conocimiento en el negocio del cliente, sus necesidades y las tendencias del mercado para el área específica. Este rol está encargado de maximizar el valor de negocio entregado al cliente y es el único responsable del control del #[em Product Backlog] (requerimientos) y su priorización. Este rol también representa al cliente en algunos procesos de demostración de avances y determina cuándo aprobar o no una entrega.
+      .col-lg.col-md-8.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.p-4.cont_hover1(style="background-color:#DCECFE;border-radius:12px;")
+          .text-end 
+            figure.cont_image_hover1
+              img(src="@/assets/curso/tema2/39.svg" style="max-width:60px;display:inline;")
+            figure.cont_image_hover2(style="display:none;")
+              img(src="@/assets/curso/tema2/40.svg" style="max-width:60px;display:inline;")
+          figure
+            img(src="@/assets/curso/tema2/82.svg" style="max-width:90px;display:inline;")
+          h4.mt-4 #[em Scrum Master]
+          p.mt-3 Es un rol que se encarga de facilitar los procesos al interior del equipo de trabajo, removiendo cualquier impedimento y apoyando procesos de empoderamiento personal, debe velar porque los elementos propios del marco de trabajo Scrum se apliquen de manera correcta.
+      .col-lg.col-md-8(data-aos="zoom-in")
+        .h-100.p-4.cont_hover1(style="background-color:#DCECFE;border-radius:12px;")
+          .text-end 
+            figure.cont_image_hover1
+              img(src="@/assets/curso/tema2/39.svg" style="max-width:60px;display:inline;")
+            figure.cont_image_hover2(style="display:none;")
+              img(src="@/assets/curso/tema2/40.svg" style="max-width:60px;display:inline;")
+          figure
+            img(src="@/assets/curso/tema2/83.svg" style="max-width:90px;display:inline;")
+          h4.mt-4 Equipo de desarrollo (#[em Developer team])  
+          p.mt-3 Son los responsables de la transformación de los requerimientos en código ejecutable a ser usado por el cliente, pero también son responsables de la planificación de las iteraciones y establecimiento de características para tener en cuenta en la verificación de un requerimiento terminado y presentación de avances a los clientes. Generalmente es un equipo auto organizado y auto gestionado.
+    
+    p.mt-4(data-aos="fade-right") Además de los roles, Scrum define un conjunto de eventos con participantes y objetivos claros que se desarrollan en momentos particulares del flujo general de Scrum, a continuación, se detalla cada uno de estos eventos:
+
+    .row.mt-4
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        AcordionA.acordion1(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="<em>Sprint</em>")
+            p Es el corazón de Scrum y se refiere a una iteración que está acotada generalmente por un lapso entre 2 y 4 semanas, donde se realiza un ciclo completo de actividades de análisis, diseño, construcción y pruebas, para desarrollar una versión del producto potencialmente entregable al cliente.
+          .row(titulo="Planeación de <em>Sprint</em>")
+            p Reunión realizada justo antes del inicio de un Sprint, donde se definen el subconjunto de requerimientos (Sprint Backlog) a ser desarrollados en el siguiente Sprint y cómo será el proceso requerido para hacer la entrega del siguiente Sprint, lo cual incluye detallar los requerimientos en tareas concretas, estimación de tiempos/esfuerzo y distribución inicial de responsabilidades. Dependiendo de la duración del Sprint este tiempo de planificación puede variar, pero la métrica establecida para Sprint de 4 semanas corresponde a una planeación de Sprint de 8 horas.
+          .row(titulo="Reunión diaria <em>(daily meeting)</em>")
+            p Reunión realizada generalmente al inicio de cada día donde el equipo informa en que ha venido trabajando, qué cosas realizaré en el día y qué problemas se le han presentado. Es una reunión corta que se realiza de pie y que debe tener una duración alrededor de los 15 minutos. Esta reunión se alinea con los pilares de transparencia e inspección.
+          .row(titulo="Revisión del <em>Sprint</em>")
+            p Reunión realizada al finalizar el Sprint, donde el equipo de desarrollo muestra los resultados del Sprint. Para Sprint de 4 semanas se usa reunión de revisiones 4 horas.
+          .row(titulo="Revisión de retrospectiva")
+            p Última realizada luego de la revisión del Sprint y tiene como objetivo la autoevaluación personal y del grupo sobre el desempeño del Sprint que acaba de finalizar. En esta reunión se identifican y documentan los aprendizajes por medio de diferentes técnicas en las que generalmente se busca dar respuesta a las siguientes preguntas: ¿qué funcionó bien y se debe seguir haciendo?, ¿que no funcionó bien y se debe dejar de realizar? y ¿qué debemos empezar a mejorar? Para un Sprint de 4 semanas se utilizan 3 horas para esta reunión.
+      .col-lg-5(data-aos="fade-left" style="place-self:center;")
+        figure.m-auto.col-5.col-md-5.col-lg-12
+          img(src="@/assets/curso/tema2/84.png")
+    
+    p.mt-5(data-aos="fade-right") Finalmente, el marco de trabajo Scrum define un conjunto de artefactos que permiten registrar y gestionar información clave, para asegurar los tres pilares fundamentales y proveen información valiosa durante todo el proceso de desarrollo de #[em software]. Entre los artefactos representativos de Scrum encontramos:
+    
+    .row.mt-5
+      .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        TabsA.color-acento-botones
+          .tarjeta.color-acento-botones.p-4(titulo="Pila de producto <br>(<em>Product Backlog</em>)" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Pila de producto (#[em(style="color:#12263F;") Product Backlog])
+            p(style="color:#12263F;") Lista priorizada de requerimientos generalmente descritos en formato de historias de usuarios, que representa todas las características del sistema a construir.
+          .tarjeta.color-acento-botones.p-4(titulo="Pila del Sprint <br>(<em>Sprint Backlog</em>)" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Pila del Sprint (#[em(style="color:#12263F;") Sprint Backlog])
+            p(style="color:#12263F;") Lista de requerimientos seleccionados desde el Product backlog por el equipo de trabajo, para ser desarrollados durante un Sprint particular. Este es un de los artefactos generados en la reunión de planeación del Sprint.
+          .tarjeta.color-acento-botones.p-4(titulo="<em>Burndown Chart</em>" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") #[em(style="color:#12263F;") Burndown Chart]
+            p(style="color:#12263F;") Es un gráfico de dos ejes que muestra a los equipos la cantidad de trabajo pendiente por completar (eje Y) y el tiempo disponible para hacerlo (eje X). 
+            p.mt-3(style="color:#12263F;") Este gráfico generalmente se realiza por cada Sprint, ubicando la cantidad trabajo a realizar del Sprint Backlog (usualmente mide puntos de historia o horas de trabajo) en un tiempo 0 y por cada día finalizado se resta la cantidad de puntos de historia u horas de cada tarea completada, también es posible usar este mismo gráfico para representar el avance general del proyecto, ubicando en el eje Y la cantidad total de horas o esfuerzo del Product Backlog y en el eje X la cantidad de Sprint proyectados. Cada uno de estos puntos se unen por medio de una línea y es posible determinar visualmente si el flujo de trabajo está en una situación óptima o no respecto al tiempo restante para completar el Sprint.
+          .tarjeta.color-acento-botones.p-4(titulo="Tablero de Scrum <br>(<em>Scrumboard</em>)" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Tablero de Scrum (#[em(style="color:#12263F;") Scrumboard])
+            p(style="color:#12263F;") Es un elemento visual en donde se integra la mayor parte de los elementos del marco de trabajo Scrum, en él se indica la carga de trabajo, el estado actual de cada una de las actividades y sus respectivos responsables. Este es un elemento que se sincroniza de manera permanente y facilita la implementación los pilares de transparencia, inspección y adaptabilidad. 
+            p.mt-3(style="color:#12263F;") Si bien se aconseja el uso de un tablero existen diferentes tipos de herramientas digitales que permiten la implementación de un tablero de Scrum.
+      .col-lg-3(data-aos="fade-left" style="place-self:center;")
+        figure.m-auto.col-7.col-md-5.col-lg-12
+          img(src="@/assets/curso/tema2/85.svg")
+    
+    p.mt-5(data-aos="fade-right") Entre los principales beneficios del marco de trabajo Scrum, encontramos:
+
+    .row.mt-4
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        figure.m-auto.col-7.col-md-5.col-lg-12
+          img(src="@/assets/curso/tema2/86.png") 
+      .col-lg-9(data-aos="fade-left" style="place-self:center;")
+        ul.lista-ul
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div Es posible gestionar las expectativas del cliente de manera regular ya que este puede y debe participar en las reuniones de revisión por lo que está enterado todo el tiempo del estado actual del proyecto.
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div El cliente puede obtener resultados importantes y utilizables desde las primeras iteraciones ya que la lista de producto está priorizada para ofrecer mayor valor en el menor tiempo posible y porque cada finalización de Sprint debe tener como resultado una versión totalmente funcional.
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div El proyecto puede iniciar con requerimientos de muy alto nivel y es fácil administrar los cambios.
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div La participación constante del cliente permite mitigar riesgos del proyecto desde sus primeras etapas.
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div Los procesos de retrospectiva permiten establecer actividades permanentes de mejora continua en función de las experiencias del equipo.
+    
+    .cont_2_11.mt-5.pt-4.pb-4
+      .cont_titulo_decorativo(data-aos="fade-right")
+        .row
+          .col-auto.pe-0
+            figure.ps-2
+              img(src="@/assets/curso/tema2/2.svg")
+          .col(style="place-self:center;")
+            h4.mb-0.pe-4(style="padding-top:7px;") Calidad de #[em software] en metodologías ágiles
+      .row.mt-5
+        .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
+          p La vertiente ágil en el desarrollo de #[em software] pretende distribuir de forma permanente y continua el proceso de desarrollo distribuido en iteraciones rápidas.
+          p.mt-4 Sin embargo, el término de “metodología ágil” es engañoso dado que implica que el enfoque ágil es la única manera de abordar el desarrollo de #[em software].  En esta vertiente no se define una serie de pasos o de indicaciones sobre el qué hacer en el proceso de desarrollo de #[em software], por el contrario, trata de una forma de pensar en colaboración y los flujos de trabajo, en el cual se definen una serie de valores que orientan las decisiones respecto a lo que se hace y la forma en que se hace. 
+          p.mt-4 Las metodologías ágiles buscan generar una serie de piezas que agregan valor y satisfacción al cliente. En estas metodologías se implementan enfoques flexibles y de trabajo en equipo para mejorar el performance del proceso, con la finalidad de ofrecer mejoras constantes. 
+        .col-lg-4(data-aos="fade-left")
+          figure.m-auto.col-6.col-md-5.col-lg-12
+            img(src="@/assets/curso/tema2/87.png")
+    
+    .cont_titulo_decorativo(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") 
 
     
    
@@ -1038,6 +1611,48 @@ export default {
   left: -15%
   height: 50%
   bottom: 0
+.cont_2_10, .cont_2_10 *
+ position: relative
+.cont_2_10:before
+  position: absolute
+  content: ''
+  width: 125%
+  left: -15%
+  height: 100%
+  top: 0
+  background: url(../assets/curso/tema2/46.svg)
+  background-size: 100% 1600px
+  background-position: center
+.slyder-f__btn i
+  color: #FFCE00
+.cont_slyder_2_1
+  background: url(../assets/curso/tema2/68.png)
+  background-size: cover
+  background-position: center
+.tabs-c__header
+  margin-bottom: 0px
+.tabs-c__content-item
+  background-color: #E1F6EF
+  padding-top: 30px
+.tabs-c.color-acento-contenido .tabs-c__tab--active span
+  font-weight: bold
+.infografica_2_1.img-infografica.color-acento-botones .img-infografica__item__numero, .infografica_2_1.img-infografica-b.color-acento-botones .img-infografica__item__numero
+  color: #12263F !important
+  font-size: 25px !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  color: #12263F
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
+  color: #12263F
+.cont_2_11, .cont_2_11 *
+  position: relative
+.cont_2_11:before
+  content: ''
+  position: absolute
+  width: 125%
+  left: -15%
+  height: 100%
+  top: 0
+  background-color: #E1F6EF
 @media screen and (max-width: 992px)
   .cont_flotante_1
     top: 0px !important
