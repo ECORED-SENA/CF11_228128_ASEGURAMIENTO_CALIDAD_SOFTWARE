@@ -1448,13 +1448,254 @@
           figure.m-auto.col-6.col-md-5.col-lg-12
             img(src="@/assets/curso/tema2/87.png")
     
-    .cont_titulo_decorativo(data-aos="fade-right")
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
       .row
         .col-auto.pe-0
           figure.ps-2
             img(src="@/assets/curso/tema2/2.svg")
         .col(style="place-self:center;")
-          h4.mb-0.pe-4(style="padding-top:7px;") 
+          h4.mb-0.pe-4(style="padding-top:7px;") Valores de la metodología ágil 
+    
+    p(data-aos="fade-left") La metodología ágil nació aproximadamente en el año 2001, dando respuesta a los proyectos gestionados por medio de metodologías en cascada, por lo cual una serie de desarrolladores redactó el manifiesto ágil. En este manifiesto se describieron cuatro características principales las cuales se deberían priorizar por encima de cualquier otra cosa. Por lo cual, los equipos que trabajan bajo esta vertiente deben valorar lo siguiente: 
+
+    .row.mt-4
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        figure.m-auto.col-7.col-md-5.col-lg-12
+          img(src="@/assets/curso/tema2/88.png") 
+      .col-lg-7(data-aos="fade-left" style="place-self:center;")
+        ul.lista-ul
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div Las personas y las interacciones antes que los procesos y las herramientas. 
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div El #[em software] en funcionamiento antes que la documentación exhaustiva.
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div La colaboración con el cliente antes que la negociación contractual.
+          li.d-flex
+            i.far.fa-file-code(style="color:#1682FB !important;")
+            div La respuesta ante el cambio antes que el apego a un plan.
+        .p-4.mt-4(style="background-color:#DEE1ED;border-radius:12px;")
+          p.mb-0 En un proyecto ágil vamos a tener iteraciones o #[em sprints], cada #[em sprint] tiene una duración que no es muy extensa aproximadamente dos a cuatro semanas; al final de cada iteración ya están definidas funcionalidades que pueden ser utilizadas por el cliente. En los proyectos ágiles existen dos tipos de planificaciones: #[em release]/entrega y #[em sprint]/iteración; no obstante, estas se pueden dar en un mismo momento, es decir, que puede incluir una sola planificación con actividades tanto del #[em release] como del #[em sprint]. Se debe tener en cuenta que en un proyecto ágil las pruebas de #[em software] se realizan en cada iteración.
+    
+    p.mt-4(data-aos="fade-right") La metodología de desarrollo de #[em software] en cascada utiliza diferentes tipos de pruebas de #[em software] que probaran tanto requerimientos funcionales como no funcionales de manera secuencial. No obstante, en metodologías ágiles específicamente en las pruebas agiles, también se consideran varios tipos de pruebas, pero teniendo en cuenta que se utilizan sprints o interacciones cortas e integraciones continuas, entre los equipos de desarrollo, diseño y pruebas.
+
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Principios de las pruebas ágiles (#[em Agile Testing])
+    
+    p(data-aos="fade-left") Según los principios del #[em Agile Testing], las personas que representan la parte de negocio del producto están involucradas en cada iteración del mismo, y el flujo de retroalimentación continua acorta el tiempo de respuesta y la toma de decisiones para integrar en la mejora del producto, estos principios son:
+
+    .cont_2_12.mt-4
+      .row.col-xl-9.m-auto.justify-content-center
+        .col-lg-4.mb-4.col-md-8(data-aos="zoom-in")
+          .h-100.p-4.pt-5.text-white(style="background-color:#273A89;border-radius:12px;")
+            div(style="position:absolute;width:100%;height:100%;right:0;top:0;")
+              figure
+                img(src="@/assets/curso/tema2/89.svg")
+            p.fw-bold.mt-3 Integración continua
+            p Los equipos de diseño y desarrollo ejecutan pruebas continuamente, puesto que es una forma de asegurar el avance continuo del producto. 
+        .col-lg-4.mb-4.col-md-8(data-aos="zoom-in")
+          .h-100.p-4.pt-5.text-white(style="background-color:#273A89;border-radius:12px;")
+            div(style="position:absolute;width:100%;height:100%;right:0;top:0;")
+              figure
+                img(src="@/assets/curso/tema2/89.svg")
+            p.fw-bold.mt-3 Entrega continua
+            p Se soporta en la integración continua, en este punto los desarrolladores realizan un control y la cantidad de veces que se realiza la entrega continua.
+        .col-lg-4.mb-4.col-md-8(data-aos="zoom-in")
+          .h-100.p-4.pt-5.text-white(style="background-color:#273A89;border-radius:12px;")
+            div(style="position:absolute;width:100%;height:100%;right:0;top:0;")
+              figure
+                img(src="@/assets/curso/tema2/89.svg")
+            p.fw-bold.mt-3 Elaborar menos documentación
+            p Los participantes de los equipos en metodologías ágiles pueden crear listas y tomar notas para centrarse en probar el #[em software], lo que permite no enfocarse en detalles secundarios que tomarían mucho tiempo.
+        .col-lg-4.mb-4.col-md-8(data-aos="zoom-in")
+          .h-100.p-4.pt-5.text-white(style="background-color:#273A89;border-radius:12px;")
+            div(style="position:absolute;width:100%;height:100%;right:0;top:0;")
+              figure
+                img(src="@/assets/curso/tema2/89.svg")
+            p.fw-bold.mt-3 Responder con velocidad a la retroalimentación
+            p Los involucrados en el negocio del producto están estrechamente conectados con las interacciones del producto, además el tiempo de respuesta se reduce debido a la realimentación continua en cada parte de la interacción.
+        .col-lg-4.mb-4.col-md-8(data-aos="zoom-in")
+          .h-100.p-4.pt-5.text-white(style="background-color:#273A89;border-radius:12px;")
+            div(style="position:absolute;width:100%;height:100%;right:0;top:0;")
+              figure
+                img(src="@/assets/curso/tema2/89.svg")
+            p.fw-bold.mt-3 Proporcionar retroalimentación constante: 
+            p En las pruebas agiles la retroalimentación es continua de modo que el diseño del producto logre los propósitos del negocio requeridos.
+    
+    .cont_titulo_decorativo.mt-4(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Cuadrantes de las pruebas en metodologías ágiles
+    
+    p(data-aos="fade-left") Para planificar las pruebas ágiles, nos podemos basar en los cuadrantes del agile testing, que nos aporta una biblioteca de tipos de pruebas que se pueden usar para cumplir con los requerimientos.
+
+    .col-xl-10.m-auto.mt-4
+      .row
+        .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+          .h-100.p-4(style="background-color:#E1F6EF;")
+            p Los cuatro cuadrantes son una clasificación que contribuye al momento de planificar las pruebas ágiles, asegurando que se tengan en cuenta los métodos y recursos para alcanzar productos de #[em software] de calidad.
+        .col-lg-8(data-aos="fade-left")
+          .h-100
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 1.
+              span Ejemplo formato de registro de tiempo
+            .p-3.p-lg-5(style="background-color:#DCECFE;")
+              figure
+                img(src="@/assets/curso/tema2/90.svg")
+    
+    p.mt-4(data-aos="fade-right") Cada cuadrante involucra pruebas específicas, las cuales se distribuyen de acuerdo con los roles ejercidos, es así como se tienen dos tipos de pruebas:
+
+    TabsC.color-acento-contenido.mt-4
+      .py-3.py-md-4(titulo="Pruebas de críticas al producto (<em>Critique the Product</em>)")
+        .row.col-xl-11.m-auto
+          .col-lg-8.mb-4.mb-lg-0
+            h4 Pruebas de críticas al producto (#[em Critique the Product])
+            p.mt-4 Estas pruebas se enfocan en apoyar al equipo desarrollador a través de la construcción (desarrollo) del producto, puesto que le orientan sobre su funcionalidad, posteriormente contribuyen a la introducción de un nuevo código y la refactorización sin que genere resultados imprevistos en el comportamiento del sistema, se encuentran en:
+            p.mt-3 El primer cuadrante (Q1) contiene los siguientes tipos de pruebas:
+            ul.lista-ul.mt-3.ps-3
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB !important;")
+                div Pruebas unitarias.
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB !important;")
+                div Pruebas de componente.
+            p.mt-4 Estas pruebas se enfocan en apoyar al equipo desarrollador a través de la construcción (desarrollo) del producto, puesto que le orientan sobre su funcionalidad, posteriormente contribuyen a la introducción de un nuevo código y la refactorización sin que genere resultados imprevistos en el comportamiento del sistema, se encuentran en:
+            ul.lista-ul.mt-3.ps-3
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB !important;")
+                div Pruebas funcionales.
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB !important;")
+                div Pruebas de historias.
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB !important;")
+                div Pruebas de Prototipos y simulaciones.
+            p.mt-4 Las pruebas y las funcionalidades de este cuadrante detallan cada historia de usuario, además también pueden ser automatizadas, no obstante, es necesario que algunas de estas pruebas sean ejecutadas desde la interfaz de usuario o lo que es lo mismo desde el punto de vista del cliente. 
+            p.mt-4 En las pruebas de este cuadrante, los diseñadores de la interfaz de usuario crean wireframes para realizar en primera instancia, validaciones con el cliente, y posteriormente iniciar con el desarrollo.
+          .col-lg-4(style="place-self:center;")
+            figure.m-auto.col-6.col-md-5.col-lg-12
+              img(src='@/assets/curso/tema2/91.svg')
+      .py-3.py-md-4(titulo="Pruebas de apoyo al equipo (<em>Supporting the Team</em>)")
+        .row.col-xl-11.m-auto
+          .col-lg-8.mb-4.mb-lg-0
+            h4 Pruebas de apoyo al equipo (#[em Supporting the Team])
+            p.mt-4 Estas pruebas pueden tener un carácter positivo, puesto que a partir de ellas se pueden sugerir o realizar mejoras. Cuando se ejecutan, la idea es simular de la forma más fiel, el ambiente real en el cual serán ejecutadas, así mismo estas pruebas frecuentemente son realizadas por los usuarios finales como pruebas de aceptación (UAT)
+            p.mt-4 El tercer cuadrante (Q3) contiene los siguientes tipos de pruebas:
+            ul.lista-ul.mt-3.ps-3
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB !important;")
+                div Pruebas exploratorias.
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB !important;")
+                div Pruebas de usabilidad.
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB !important;")
+                div Pruebas de escenarios.
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB !important;")
+                div Pruebas de aceptación de usuario.
+            p.mt-4 El cuarto cuadrante (Q4) contiene pruebas técnicas relacionadas con los requerimientos no funcionales, por lo que validan el cumplimiento de estos, analizando la seguridad, el desempeño y la robustez:
+            ul.lista-ul.mt-3.ps-3
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB !important;")
+                div Pruebas de rendimiento y de estrés.
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB !important;")
+                div Pruebas de seguridad.
+              li.d-flex
+                i.far.fa-file-code(style="color:#1682FB !important;")
+                div Pruebas de robustez.
+          .col-lg-4(style="place-self:center;")
+            figure.m-auto.col-6.col-md-5.col-lg-12
+              img(src='@/assets/curso/tema2/92.svg')
+    
+    .cont_titulo_decorativo.mt-5(data-aos="fade-right")
+      .row
+        .col-auto.pe-0
+          figure.ps-2
+            img(src="@/assets/curso/tema2/2.svg")
+        .col(style="place-self:center;")
+          h4.mb-0.pe-4(style="padding-top:7px;") Metodología XP - Programación Extrema
+    
+    p(data-aos="fade-left") #[strong XP] es la abreviación comúnmente utilizada para referirse a #[em Extreme Programming], el cual es un marco de desarrollo de #[em software] ágil que busca producir #[em software] de alta calidad en contextos con requisitos altamente cambiantes, riesgos que involucran tiempos fijos con tecnologías nuevas y equipos de trabajo pequeños ubicados en un mismo sitio.
+    p.mt-4(data-aos="fade-right") #[strong XP] define cinco valores (Beck & Andres, 2004), tal como podemos ver a continuación:
+
+    .row.mt-4
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
+        AcordionA.acordion1(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Comunicación")
+            p El desarrollo de #[em software] requiere de trabajo en equipo, por lo cual es importante la transferencia de conocimientos y utilizar medios de comunicación apropiados, se propone la discusión cara a cara con herramientas que permitan dibujar o escribir como por ejemplo, un tablero.
+          .row(titulo="Simplicidad")
+            p Se refiere a hacer solo las cosas que sean absolutamente necesarias, evitando el desperdicio, elaborar las cosas de forma que sea fácil entender por otros y abordar solo requisitos conocidos.
+          .row(titulo="Retroalimentación")
+            p Permite identificar áreas de mejora y revisión constante de las prácticas implementadas en el proceso de forma, que puedan establecer procesos de mejora permanente.
+          .row(titulo="Coraje")
+            p Se refiere al actuar sobre situaciones que pueden ser retadoras para el equipo como por ejemplo, enfrentar problemas organizacionales, intentar implementar funcionalidades de formas diferente cuando lo convencional no funciona, aceptar comentarios, etc.
+          .row(titulo="Respeto")
+            p Por medio de la transparencia y la inspección es posible fijar actividades de mejoras que permitan mejorar todo tipo de proceso, en pro de lograr más altos estándares de calidad. 
+      .col-lg-5(data-aos="fade-left" style="place-self:center;")
+        figure.m-auto.col-5.col-md-5.col-lg-12
+          img(src="@/assets/curso/tema2/93.png") 
+
+    p.mt-4(data-aos="fade-right") Adicional a los valores, XP se caracteriza por la definición de un conjunto de 12 prácticas de desarrollo de software que, aunque pueden ser adoptadas de forma aislada, tiene mayor relevancia cuando son desarrolladas en conjunto (Jeffries, 2011):
+
+    .cont_2_13.mt-5
+      .col-xl-8.m-auto
+        .p-lg-5.p-3.cont_infografia_2_1(style="border-radius:15px;position:relative;" data-aos="zoom-in-up")
+          ImagenInfografica.color-acento-botones.infografica_2_1
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema2/95.svg' )
+            .tarjeta.color-acento-botones.p-3(x="14%" y="0%" numero="+" style="background-color:#DCECFE;")
+              h5(style="color:#12263F;") Planificación
+              p.mb-0(style="color:#12263F;") Consiste en una reunión de planeación que realiza el equipo de desarrollo en conjunto con el cliente, para discutir y probar las características a ser desarrolladas.
+            .tarjeta.color-acento-botones.p-3(x="50%" y="0%" numero="+" style="background-color:#DCECFE;")
+              h5(style="color:#12263F;") Pequeños lanzamientos
+              p.mb-0(style="color:#12263F;") Esta práctica sugiere hacer iteraciones cortas con funcionalidades pequeñas que puedan ser probadas con el cliente, de forma que se obtiene realimentación temprana y frecuente.
+            .tarjeta.color-acento-botones.p-3(x="86%" y="0%" numero="+" style="background-color:#DCECFE;")
+              h5(style="color:#12263F;") Metáfora
+              p.mb-0(style="color:#12263F;") Los nombres usados para definir cualquier tipo de identificador en el sistema debe ser coherente. El diseño y la estructura general debe ser comprensible para cualquier persona.
+            .tarjeta.color-acento-botones.p-3(x="14%" y="25%" numero="+" style="background-color:#DCECFE;")
+              h5(style="color:#12263F;") Refactorización
+              p.mb-0(style="color:#12263F;") Eliminación de funciones innecesarias, desacoplar elementos, eliminar cualquier tipo de redundancia de forma que se mantenga un código lo más limpio posible, que sea fácil de entender y modificar.
+            .tarjeta.color-acento-botones.p-3(x="50%" y="25%" numero="+" style="background-color:#DCECFE;")
+              h5(style="color:#12263F;") Pruebas
+              p.mb-0(style="color:#12263F;") Sugiere el uso de técnicas donde se enfatice en el proceso de pruebas constantes antes de iniciar la construcción del código, como por ejemplo TTD (Desarrollo basado en pruebas).
+            .tarjeta.color-acento-botones.p-3(x="86%" y="25%" numero="+" style="background-color:#DCECFE;")
+              h5(style="color:#12263F;") Diseño simple
+              p.mb-0(style="color:#12263F;") Hacer código que funcione y que sea a la vez la solución más simple posible, evitando duplicación de código, menor número de métodos y clases.
+            .tarjeta.color-acento-botones.p-3(x="14%" y="52%" numero="+" style="background-color:#DCECFE;")
+              h5(style="color:#12263F;") Programación en pareja
+              p.mb-0(style="color:#12263F;") Esta práctica propone que un código sea desarrollado por el trabajo de dos personas, donde una de ellas codifica y la otra está haciendo revisión, sugerencias y corrección de errores en el mismo momento de escritura.
+            .tarjeta.color-acento-botones.p-3(x="50%" y="52%" numero="+" style="background-color:#DCECFE;")
+              h5(style="color:#12263F;") Semana de 40 horas
+              p.mb-0(style="color:#12263F;") Es importante que los desarrolladores tengan espacios de trabajo apropiados, donde puedan descansar y mantener un equilibrio entre la vida laboral y personal favoreciendo la eficiencia y puedan sostener la calidad durante todo el tiempo. Propone que no se deben exceder las 45 horas de trabajo semanales.
+            .tarjeta.color-acento-botones.p-3(x="86%" y="52%" numero="+" style="background-color:#DCECFE;")
+              h5(style="color:#12263F;") Cliente in situ
+              p.mb-0(style="color:#12263F;") El cliente final debe participar durante todo el proceso de construcción de #[em(style="color:#12263F;") software] y estar presente para resolver cualquier pregunta que se pueda generar.
+            .tarjeta.color-acento-botones.p-3(x="14%" y="80%" numero="+" style="background-color:#DCECFE;")
+              h5(style="color:#12263F;") Propiedad colectiva
+              p.mb-0(style="color:#12263F;") Todo el equipo es dueño del sistema, esto promueve la cooperación y la libertad de cada miembro para aportar nuevas ideas.
+            .tarjeta.color-acento-botones.p-3(x="50%" y="80%" numero="+" style="background-color:#DCECFE;")
+              h5(style="color:#12263F;") Integración continua
+              p.mb-0(style="color:#12263F;") Implica el uso de sistema de control de versiones de forma que el código pueda ser compartido o reutilizado, pero también cada persona pueda trabajar de forma independiente y en paralelo sobre el mismo proyecto.
+            .tarjeta.color-acento-botones.p-3(x="86%" y="80%" numero="+" style="background-color:#DCECFE;")
+              h5(style="color:#12263F;") Estándar de codificación
+              p.mb-0(style="color:#12263F;") Se deben utilizar los mismos formatos y estilos en la redacción de código.
+      
+
+
+
 
     
    
@@ -1653,6 +1894,33 @@ export default {
   height: 100%
   top: 0
   background-color: #E1F6EF
+.cont_2_12, .cont_2_12 *
+  position: relative
+.cont_2_12:before
+  content: ''
+  position: absolute
+  width: 125%
+  left: -15%
+  height: 70%
+  top: 13%
+  bottom: 17%
+  background-color: #ADD3FD
+.cont_2_13
+  position: relative
+.cont_2_13:before
+  content: ''
+  position: absolute
+  width: 125%
+  left: -15%
+  height: 80%
+  top: 8%
+  bottom: 12%
+  background: rgb(62,226,168)
+  background: linear-gradient(90deg, rgba(62,226,168,1) 0%, rgba(42,149,111,1) 50%, rgba(62,226,168,1) 100%)
+.cont_infografia_2_1
+  background: url(../assets/curso/tema2/94.svg)
+  background-size: cover
+  background-position: center
 @media screen and (max-width: 992px)
   .cont_flotante_1
     top: 0px !important
