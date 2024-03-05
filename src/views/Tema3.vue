@@ -326,28 +326,22 @@
 
     .row.mt-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-        TabsA.color-acento-botones
-          .tarjeta.color-acento-botones.p-4(titulo="Alcance" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Alcance
-            p(style="color:#12263F;") Se incluye el propósito del #[em(style="color:#12263F;") release] y las historias de usuario.
-          .tarjeta.color-acento-botones.p-4(titulo="Suposiciones" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Suposiciones
-            p(style="color:#12263F;") Se incluyen los supuestos del proyecto.
-          .tarjeta.color-acento-botones.p-4(titulo="Análisis de <br> riesgos" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Análisis de riesgos
-            p(style="color:#12263F;") Define qué se incluye en la automatización de pruebas.
-          .tarjeta.color-acento-botones.p-4(titulo="Automatización <br> de pruebas" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Automatización de pruebas
-            p(style="color:#12263F;") Define qué se incluirá en la automatización.
-          .tarjeta.color-acento-botones.p-4(titulo="Ambiente <br> de pruebas" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Ambiente de pruebas
-            p(style="color:#12263F;") Define qué se necesita en relación al ambiente de pruebas.
-          .tarjeta.color-acento-botones.p-4(titulo="Datos de las <br> pruebas - <br> Resultados de <br> las pruebas" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Datos de las pruebas - Resultados de las pruebas
-            p(style="color:#12263F;") Se establecen los datos arrojados en cada una de las pruebas, junto con los resultados encontrados.
+        AcordionA.acordion1(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Alcance")
+            p Se incluye el propósito del #[em release] y las historias de usuario.
+          .row(titulo="Suposiciones")
+            p Se incluyen los supuestos del proyecto.
+          .row(titulo="Análisis de riesgos")
+            p Define qué se incluye en la automatización de pruebas.
+          .row(titulo="Automatización de pruebas")
+            p Define qué se incluirá en la automatización.
+          .row(titulo="Ambiente de pruebas")
+            p Define qué se necesita en relación al ambiente de pruebas.
+          .row(titulo="Datos de las pruebas - Resultados de las pruebas")
+            p Se establecen los datos arrojados en cada una de las pruebas, junto con los resultados encontrados.
       .col-lg-5(data-aos="fade-left")
         figure.m-auto.col-6.col-md-6.col-lg-12
-          img(src="@/assets/curso/tema3/24.svg")
+          img(src="@/assets/curso/tema3/29.svg")
     
     p.mt-5(data-aos="fade-right") Estos elementos se describen en un plan de pruebas, sin embargo, es posible que en los equipos se tome la decisión de no diseñarlo, en ese sentido se recomienda que los tester tomen notas o documente los factores más importantes relacionados con las pruebas en cada #[em release].
 
@@ -396,29 +390,31 @@
     p(data-aos="fade-left") Una vez ejecutadas las pruebas, se deben analizar los resultados y los fallos detectados, teniendo en cuenta el reporte de defectos y directrices para detectarlos y el informe de resultados de pruebas. Para ello se puede realizar lo descrito a continuación:
 
     .row.mt-5
-      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-        figure.m-auto.col-6.col-md-5.col-lg-12
-          img(src="@/assets/curso/tema3/26.png")
-      .col-lg-8(data-aos="fade-left" style="place-self:center;")
-        TabsA.color-acento-botones
-          .tarjeta.color-acento-botones.p-4(titulo="Impacto" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Impacto
-            p(style="color:#12263F;") Analizar el impacto del defecto.
-          .tarjeta.color-acento-botones.p-4(titulo="Problema" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Problema
-            p(style="color:#12263F;") Investigar el problema, en qué condiciones se produce este fallo.
-          .tarjeta.color-acento-botones.p-4(titulo="Severidad" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Severidad
-            p(style="color:#12263F;") Analizar la severidad, si es alta o baja.
-          .tarjeta.color-acento-botones.p-4(titulo="Pasos" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Pasos
-            p(style="color:#12263F;") Variar los pasos realizados, se pueden ejecutar en orden diferente para observar si existe alguna variante en el resultado esperado.
-          .tarjeta.color-acento-botones.p-4(titulo="Configuración" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Configuración
-            p(style="color:#12263F;") Variar opciones de configuración; si estamos probando una aplicación #[em(style="color:#12263F;") web] podemos probar con diferentes navegadores.
-          .tarjeta.color-acento-botones.p-4(titulo="Condiciones" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Condiciones
-            p(style="color:#12263F;") Determinar condiciones específicas bajo las cuales se reproduce el defecto. Si estamos probando entradas de datos, probar con diferentes datos, es decir, se va a tener más información sobre cómo se reproduce el defecto, si por ejemplo, en los campos numéricos se prueba números positivos y negativos.
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
+        figure.m-auto.col-7.col-md-6.col-lg-12
+          img(src="@/assets/curso/tema3/30.png")
+      .col-lg-6(data-aos="fade-left")
+        AcordionA.acordion1(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Impacto")
+            p Analizar el impacto del defecto.
+          .row(titulo="Problema")
+            p Investigar el problema, en qué condiciones se produce este fallo.
+          .row(titulo="Severidad")
+            p Analizar la severidad, si es alta o baja.
+
+    .row.mt-4
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
+        AcordionA.acordion1(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Pasos")
+            p Variar los pasos realizados, se pueden ejecutar en orden diferente para observar si existe alguna variante en el resultado esperado.
+          .row(titulo="Configuración")
+            p Variar opciones de configuración; si estamos probando una aplicación web podemos probar con diferentes navegadores.
+          .row(titulo="Condiciones")
+            p Determinar condiciones específicas bajo las cuales se reproduce el defecto. Si estamos probando entradas de datos, probar con diferentes datos, es decir, se va a tener más información sobre cómo se reproduce el defecto, si por ejemplo, en los campos numéricos se prueba números positivos y negativos.
+      .col-lg-6(data-aos="fade-left")
+        figure.m-auto.col-7.col-md-6.col-lg-12
+          img(src="@/assets/curso/tema3/31.svg")
+
         
     .cont_titulo_decorativo.mt-5(data-aos="fade-right")
       .row
@@ -579,6 +575,17 @@ export default {
 .slyder-a__bullets__item--active
   background-color: #fff !important
   border-color: #fff !important
+.acordion1 .acordion__accion__btn--b
+  border: 1px solid #111e61
+  background-color: #FFCE00
+  border-color: #FFCE00
+  box-shadow: 0px 0px 10px rgba(0,0,0,.2)
+.acordion1 .tarjeta--azul
+  background-color: #E1F6EF !important
+.acordion1 .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #DCECFE !important
+.acordion1 .acordion__accion__btn--a
+  background-color: #FFCE00
 @media screen and (max-width: 992px)
   .cont_3_1:before
     height: 100%
