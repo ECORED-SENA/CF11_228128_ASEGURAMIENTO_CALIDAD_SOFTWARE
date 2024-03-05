@@ -232,10 +232,10 @@
         p.mt-4 Cuando se desea mejorar algunos procesos de negocio, construir productos de calidad para satisfacer las necesidades del cliente y colaborar en el cumplimiento de los requerimientos de la norma ISO e instaurar prácticas de mejora continua, se debe utilizar este modelo puesto que es un modelo de capacidad y madurez, que además permite efectuar una apreciación de la madurez del proceso de desarrollo de #[em software] en las empresas.
         .p-4(style="background-color:#DEE1ED;border-radius:15px;")
           .row
-            .col-auto(style="place-self:center;")
-              figure
-                img(src="@/assets/curso/tema2/17.svg")
-            .col(style="place-self:center;")
+            .col-md-auto.mb-4.mb-md-0(style="place-self:center;")
+              figure.m-auto.col-5.col-md-12
+                img(src="@/assets/curso/tema2/17.svg" style="display:inline;")
+            .col-md.col-12(style="place-self:center;")
               p Los objetivos de CMMI, son:
               ul.lista-ul.mt-2.ps-3
                 li.d-flex
@@ -274,7 +274,7 @@
       .col-xl-8.m-auto.mt-5(style="position:relative;")
         .cont_2_5.pt-5.pb-5
           .col-xl-10.m-auto
-            ImagenInfograficaB.color-acento-botones
+            ImagenInfograficaB.color-acento-botones.infografia_2_2
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema2/20.svg' data-aos="zoom-in-up")
@@ -316,7 +316,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
             p En CMMI en una representación continua se cuenta con seis niveles de capacidad asignados por los rangos de números del 0 al 5. Esta representación es un conjunto predefinido de áreas de proceso, que se mide por el logro de los objetivos tanto genéricos como específicos, descritos de la siguiente manera:
-            figure
+            figure.d-none.d-lg-block
               img(src="@/assets/curso/tema2/22.png")
           .col-lg-6(data-aos="fade-left")
             .tarjeta.tarjeta--azul.p-4.cont_slyder_3_1
@@ -366,7 +366,7 @@
           .col(style="place-self:center;")
             p.mb-0 La calidad de #[em software] es un área importante en el proceso de desarrollo que busca estar en constante validación de la calidad del producto #[em software], por lo general en el diseño de un plan de aseguramiento de calidad. Por ello es de importancia tener en cuenta los siguientes conceptos y su aplicación práctica en el ciclo de desarrollo de #[em software]: 
       .col-lg-4(data-aos="fade-left")
-        figure.m-auto.col-7.col-md-7.col-lg-12
+        figure.m-auto.col-7.col-md-7.col-lg-12.d-none.d-lg-block
           img(src="@/assets/curso/tema2/25.png")
     
     .cont_2_7.mt-5
@@ -468,12 +468,12 @@
           .row(titulo="Planificación")
             p La gestión y la planificación de la calidad debe ser eficaz y previamente definido y ejecutado, por lo tanto, se deben establecer procesos, estándares y una planeación claramente definida para poder asegurar la calidad del producto, donde contengan puntos de verificación y un proceso claro y definido que incluya que, quien, y cuando, va a realizar la verificación o medición de la calidad. 
       .col-lg-5(data-aos="fade-left" style="place-self:center;")
-        figure.m-auto.col-7.col-md-7.col-lg-12
+        figure.m-auto.col-7.col-md-7.col-lg-12.d-none.d-lg-block
           img(src="@/assets/curso/tema2/32.png")
     
     .row.mt-5
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-        figure.m-auto.col-7.col-md-7.col-lg-12
+        figure.m-auto.col-7.col-md-7.col-lg-12.d-none.d-lg-block
           img(src="@/assets/curso/tema2/33.png")
       .col-lg-7(data-aos="fade-left" style="place-self:center;")
         AcordionA.acordion1(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -506,12 +506,12 @@
           .row(titulo="Capacitación del personal, la readaptación profesional y la certificación")
             p El personal debe estar capacitado para ejecutar las actividades que le corresponden a su rol, por eso la capacitación juega un papel muy importante dentro de SQA.
       .col-lg-6(data-aos="fade-left")
-        figure.m-auto.col-7.col-md-8.col-lg-12
+        figure.m-auto.col-7.col-md-8.col-lg-12.d-none.d-lg-block
           img(src="@/assets/curso/tema2/34.svg" style="place-self:center;")
     
     .row.mt-4
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-        figure.m-auto.col-7.col-md-8.col-lg-12
+        figure.m-auto.col-7.col-md-8.col-lg-12.d-none.d-lg-block
           img(src="@/assets/curso/tema2/35.svg")
       .col-lg-6(data-aos="fade-left" style="place-self:center;")
         AcordionA.acordion1(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
@@ -572,7 +572,7 @@
     .titulo-segundo(data-aos="zoom-in-right")
       h2#t_2_5 2.5  Modelos de referencia para la calidad en el proceso
     
-    .cont_2_9.pb-5
+    .cont_2_9.pb-5.p-4.p-lg-0
       .row
         .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
           p En la calidad de #[em software] es importante involucrar el valor de los requerimientos explícitos e implícitos del producto, con el propósito de medir la calidad, los estándares y modelos de calidad existentes. 
@@ -905,10 +905,10 @@
     .col-xl-10.m-auto.mt-4
       .p-4.mt-4(style="background-color:#E1F6EF;border-radius:12px;")
         .row
-          .col-auto(style="place-self:center;")
-            figure
+          .col-md-auto.mb-4.mb-md-0(style="place-self:center;")
+            figure.col-5.col-md-12.m-auto
               img(src="@/assets/curso/tema2/45.svg")
-          .col(style="place-self:center;")
+          .col-md(style="place-self:center;")
             ul.lista-ul
               li.d-flex
                 i.far.fa-file-code(style="color:#1682FB;")
@@ -1231,12 +1231,12 @@
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         p El TSP contiene una serie de pasos estructurados con indicaciones para realizar las actividades en cada fase del desarrollo del proyecto, además es una herramienta útil referente a formación de equipos para el desarrollo de #[em software] de calidad, generando una planificación que permite determinar las responsabilidades y los roles en los equipos de trabajo. Para ello el TSP se basa en el PSP para formar profesionales con condiciones idóneas para la realización de proyectos demasiado grandes, además este marco contiene las características para generar planes detallados, utilizar datos de procesos, medir y gestionar la calidad del producto y detallar procesos operacionales.
       .col-lg-5(data-aos="fade-left" style="place-self:center;")
-        figure.m-auto.col-8.col-md-6.col-lg-12
+        figure.m-auto.col-8.col-md-6.col-lg-12.d-none.d-lg-block
           img(src="@/assets/curso/tema2/76.svg") 
     
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-        figure.m-auto.col-7.col-md-5.col-lg-12
+        figure.m-auto.col-7.col-md-5.col-lg-12.d-none.d-lg-block
           img(src="@/assets/curso/tema2/77.png") 
       .col-lg-8(data-aos="fade-left" style="place-self:center;")
         p Los objetivos del TSP son:
@@ -1266,7 +1266,7 @@
     p.mt-5(data-aos="fade-right") A continuación, se presentan las fases del ciclo de vida del TSP, donde se describe unas pautas para realizar un buen desarrollo de #[em software] en cabeza del equipo de trabajo.
 
     .col-xl-8.m-auto.mt-5
-      ImagenInfografica.color-acento-botones.infografica_2_1
+      ImagenInfografica.color-acento-botones.infografica_2_1.d-none.d-lg-block
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema2/78.svg' data-aos="zoom-in-up")
@@ -1292,6 +1292,35 @@
           h5(style="color:#12263F;") Pruebas
           p.mb-0(style="color:#12263F;") En esta etapa el producto está a punto de finalizar, posteriormente se procede a la integración de los módulos y la documentación para los usuarios finales, como son los manuales de uso. También se establecen las pruebas al #[em(style="color:#12263F;") software], con el objetivo de asegurar la calidad y poder así generar una evaluación en el desempeño del equipo de trabajo.
         .tarjeta.color-acento-botones.p-3(x="75%" y="82%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;font-style:italic;") Postmortem
+          p.mb-0(style="color:#12263F;") En esta etapa se hace una evaluación de los resultados de las pruebas y del trabajo del equipo. Se redacta un reporte del ciclo de vida del proyecto a detalle.
+      
+      ImagenInfografica.color-acento-botones.infografica_2_1.d-md-block.d-lg-none
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/tema2/96.svg' data-aos="zoom-in-up")
+        .tarjeta.color-acento-botones.p-3(x="26%" y="8%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Lanzamiento
+          p.mb-0(style="color:#12263F;") En esta etapa se determinan las metas del equipo, se evalúan los objetivos, se establecen los roles y responsabilidades del equipo, se tienen en cuenta los requerimientos del cliente y la creación de estrategia para la finalización del proyecto.
+        .tarjeta.color-acento-botones.p-3(x="71%" y="8%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Estrategia
+          p.mb-0(style="color:#12263F;") En esta etapa se crea un modelo conceptual de lo que se necesita para generar soluciones óptimas, determinando las estimaciones y los riesgos.
+        .tarjeta.color-acento-botones.p-3(x="26%" y="25%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Planeación
+          p.mb-0(style="color:#12263F;") En esta etapa se generan los roles y las actividades de cada miembro del equipo.
+        .tarjeta.color-acento-botones.p-3(x="71%" y="25%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Requerimientos
+          p.mb-0(style="color:#12263F;") En esta fase se determinan entrevistas con el cliente, con el objetivo de concretar lo que es necesario producir en realidad. Desarrollar un plan de pruebas para el producto terminado previamente al análisis de los requerimientos.
+        .tarjeta.color-acento-botones.p-3(x="26%" y="41.5%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Diseño
+          p.mb-0(style="color:#12263F;") En esta etapa se desarrolla un plan de pruebas de integración, por lo tanto se especifica en un diseño, todos los detalles respecto a los procesos del producto. 
+        .tarjeta.color-acento-botones.p-3(x="71%" y="41.5%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Implementación
+          p.mb-0(style="color:#12263F;") En esta etapa el diseño se transfiere a nivel de código, realizando una revisión con el propósito de encontrar errores. También los módulos y las unidades se compilan y ejecutan con el propósito de analizar su calidad.
+        .tarjeta.color-acento-botones.p-3(x="26%" y="59%" numero="+" style="background-color:#DCECFE;")
+          h5(style="color:#12263F;") Pruebas
+          p.mb-0(style="color:#12263F;") En esta etapa el producto está a punto de finalizar, posteriormente se procede a la integración de los módulos y la documentación para los usuarios finales, como son los manuales de uso. También se establecen las pruebas al #[em(style="color:#12263F;") software], con el objetivo de asegurar la calidad y poder así generar una evaluación en el desempeño del equipo de trabajo.
+        .tarjeta.color-acento-botones.p-3(x="71%" y="59%" numero="+" style="background-color:#DCECFE;")
           h5(style="color:#12263F;font-style:italic;") Postmortem
           p.mb-0(style="color:#12263F;") En esta etapa se hace una evaluación de los resultados de las pruebas y del trabajo del equipo. Se redacta un reporte del ciclo de vida del proyecto a detalle.
     
@@ -1743,6 +1772,13 @@ export default {
 .img-infografica-b.color-acento-botones .img-infografica-b__item__numero
   color: #12263F
   font-size: 30px
+.infografia_2_2 .img-infografica__item__dot:before, .infografia_2_2 .img-infografica__item__dot:after, .infografia_2_2 .img-infografica-b__item__dot:before, .infografia_2_2 .img-infografica-b__item__dot:after
+  top: -12px
+  left: -12px
+  padding: 20px
+.infografia_2_2.img-infografica-b.color-acento-botones .img-infografica-b__item__numero
+  color: #12263F
+  font-size: 30px
 .img-infografica-b__modal
   background-color: #273A89
 .img-infografica-b__modal__btn-cerrar i
@@ -1921,7 +1957,18 @@ export default {
   background: url(../assets/curso/tema2/94.svg)
   background-size: cover
   background-position: center
+.slyder-a__bullets__item
+  background-color: rgba(255, 255, 255, .35)
+  border: 0px
+.slyder-a__bullets__item--active
+  background-color: #fff !important
+  border-color: #fff !important
 @media screen and (max-width: 992px)
   .cont_flotante_1
     top: 0px !important
+  .cont_2_9:before
+    width: 100%
+    height: 100%
+    left: 0
+    top: 0
 </style>

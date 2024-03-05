@@ -9,8 +9,8 @@
             img(src="@/assets/template/arrastrar.svg", alt="Imagen decorativa")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Fundamentos de calidad de software
-        p.mb-4 Afianzar los conceptos más importantes asociados a la calidad del software, modelos y metodologías de desarrollo y plan de pruebas.
+          h2 Fundamentos de calidad de #[em software]
+        p.mb-4 Afianzar los conceptos más importantes asociados a la calidad del #[em software], modelos y metodologías de desarrollo y plan de pruebas.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

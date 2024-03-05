@@ -18,8 +18,9 @@
             figure.m-auto.col-6.col-md-6.col-lg-12
               img(src="@/assets/curso/intro1.png")
           .col-lg-9(data-aos="fade-left" style="place-self:center;")
-            p Dadas las circunstancias actuales, la demanda de construcción de productos de software va en auge, teniendo un crecimiento exponencial año por año. Si agregamos las iniciativas de modernización de las tecnologías y la tendencia de sistematizar y facilitar los procesos, implica tener más células de desarrollo operando, y mejoras en las fases de calidad del #[em software]. 
-            p.mt-4.mb-0 En este componente formativo, usted podrá abordar los fundamentos de la calidad del software, entendiendo los valores misionales de las empresas, y cómo estos repercuten en los diferentes procesos de control de la misma. La calidad es una característica que debe ser transversal en todos y cada uno de estos procesos, porque de esta forma podremos asegurar éxito y productividad. Un quipo capacitado, comprometido y creativo es un valor agregado en la industria del software, que cada vez va en aumento, pero que también exige compromiso de todos.
+            .p-lg-4
+              p Dadas las circunstancias actuales, la demanda de construcción de productos de software va en auge, teniendo un crecimiento exponencial año por año. Si agregamos las iniciativas de modernización de las tecnologías y la tendencia de sistematizar y facilitar los procesos, implica tener más células de desarrollo operando, y mejoras en las fases de calidad del #[em software]. 
+              p.mt-4.mb-0 En este componente formativo, usted podrá abordar los fundamentos de la calidad del software, entendiendo los valores misionales de las empresas, y cómo estos repercuten en los diferentes procesos de control de la misma. La calidad es una característica que debe ser transversal en todos y cada uno de estos procesos, porque de esta forma podremos asegurar éxito y productividad. Un quipo capacitado, comprometido y creativo es un valor agregado en la industria del software, que cada vez va en aumento, pero que también exige compromiso de todos.
 
     
  

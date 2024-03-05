@@ -15,7 +15,8 @@
               img(src="@/assets/curso/tema3/2.png")
           .col-lg-9(data-aos="fade-left" style="place-self:center;")
             .col-xl-10.m-auto.p-3
-              p.mb-5.mb-md-0 La documentación de productos de #[em software] son artefactos importantes, dado que estos permiten transferir y comunicar aspectos que al revisar o inspeccionar un sistema no se pueden entender rápidamente y suele ser complicado, por tal razón es que se documenta para comprender, compartir y mostrar el comportamiento y la estructura de un sistema o de sus componentes, controlar y visualizar las arquitectura del sistema y controlar el riesgo, además la documentación debe utilizarse para el desarrollo del producto #[em software] y su mantenimiento en el futuro resaltando que no solo se documenta un proceso respecto a la calidad, sino, también las fases del desarrollo del #[em software], requerimientos, análisis, diseño, construcción y pruebas. Sin embargo, cuando se requiere documentar un proceso de calidad de #[em software] es pertinente tener en cuenta tanto el plan de pruebas como los resultados arrojados que se muestran en los apartados siguientes. 
+              .p-lg-4.pt-lg-0
+                p.mb-5.mb-md-0 La documentación de productos de #[em software] son artefactos importantes, dado que estos permiten transferir y comunicar aspectos que al revisar o inspeccionar un sistema no se pueden entender rápidamente y suele ser complicado, por tal razón es que se documenta para comprender, compartir y mostrar el comportamiento y la estructura de un sistema o de sus componentes, controlar y visualizar las arquitectura del sistema y controlar el riesgo, además la documentación debe utilizarse para el desarrollo del producto #[em software] y su mantenimiento en el futuro resaltando que no solo se documenta un proceso respecto a la calidad, sino, también las fases del desarrollo del #[em software], requerimientos, análisis, diseño, construcción y pruebas. Sin embargo, cuando se requiere documentar un proceso de calidad de #[em software] es pertinente tener en cuenta tanto el plan de pruebas como los resultados arrojados que se muestran en los apartados siguientes. 
       
       Separador
 
@@ -443,7 +444,7 @@
         span Ciclo de vida de una incidencia de #[em software] (bug)
       .cont_image_3_1.mt-4.p-3.p-lg-5(data-aos="zoom-in-up")
         figure
-          img(src="@/assets/curso/tema3/28.svg")
+          img(src="@/assets/curso/tema3/28.svg" alt="Imagen que presenta el ciclo de vida de una incidencia de software, desde que se inicia el proceso de prueba, hasta qye se cierra el proceso.")
 
 
 
@@ -572,6 +573,12 @@ export default {
   background: url(../assets/curso/tema3/27.png)
   background-size: cover
   background-position: center
+.slyder-a__bullets__item
+  background-color: rgba(255, 255, 255, .35)
+  border: 0px
+.slyder-a__bullets__item--active
+  background-color: #fff !important
+  border-color: #fff !important
 @media screen and (max-width: 992px)
   .cont_3_1:before
     height: 100%
