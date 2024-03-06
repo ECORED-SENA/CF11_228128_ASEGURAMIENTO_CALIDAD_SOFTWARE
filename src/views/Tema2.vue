@@ -39,9 +39,9 @@
       p(data-aos="fade-left" style="position:relative;") El desarrollo en cascada es un proceso lineal por lo que se identifica en separar los procesos del desarrollo de #[em software] en diferentes fases que son sucesivas en el contexto de la ejecución del proyecto. A diferencia de los modelos iterativos, cada una de las fases se ejecuta una sola vez, y el resultado de cada fase es un insumo para la siguiente. Esta metodología es usada especialmente en el proceso de desarrollo de #[em software]. 
 
       .col-xl-10.m-auto.mt-5(style="position:relative;")
-        .cont_2_2.pt-5.pb-5
+        .cont_2_2.pt-5.pb-5.p-lg-3
           .col-xl-10.m-auto
-            ImagenInfograficaB.color-acento-botones
+            ImagenInfograficaB.color-acento-botones.d-none.d-lg-block.infografiab_1
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/tema2/4.svg' data-aos="zoom-in-up")
@@ -82,6 +82,66 @@
                     figure.m-auto.col-7.col-md-7.col-lg-12
                       img(src="@/assets/curso/tema2/10.png")
               div(x="96%" y="91%" tooltip="Ver más" numero="+")
+                .row
+                  .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+                    h4 Mantenimiento
+                    p.mt-4 Después que la fase de prueba haya finalizado con éxito, se autoriza para que la aplicación pase a un ambiente productivo, en esta última etapa se incluye la entrega, mantenimiento, garantía y mejoras del producto #[em software]. Cabe destacar que la fase de mantenimiento incluye tres elementos:
+                    ul.lista-ul.mt-4.ps-4
+                      li.d-flex
+                        i.far.fa-file-code
+                        div Mantenimiento correctivo: eliminar los defectos detectados durante su vida útil.
+                      li.d-flex
+                        i.far.fa-file-code
+                        div Mantenimiento adaptativo: adaptar el #[em software] a nuevas necesidades.
+                      li.d-flex
+                        i.far.fa-file-code
+                        div Mantenimiento perfectivo: añadir al #[em software] nuevas funcionalidades.
+                  .col-lg-5(style="place-self:center;")
+                    figure.m-auto.col-7.col-md-7.col-lg-12
+                      img(src="@/assets/curso/tema2/11.png")
+
+
+            ImagenInfograficaB.color-acento-botones.d-lg-none.col-md-10.m-auto.infografiab_1
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema2/97.svg' data-aos="zoom-in-up")
+              div(x="75%" y="6%" tooltip="Ver más" numero="+")
+                .row
+                  .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+                    h4 Análisis
+                    p.mt-4 Todo proyecto de #[em software] inicia con una fase de análisis. En el documento de especificación del #[em software] se determina la viabilidad y la definición de requisitos funcionales y no funcionales. 
+                    p.mt-4 En la viabilidad se evalúa la rentabilidad, factibilidad y los costos de la construcción, además se define un pliego de condiciones, un plan y una estimación financiera y también la propuesta para el cliente, de ser necesario. 
+                    p.mt-4 Posteriormente, se realiza la definición detallada de los requisitos, que debe incluir, el análisis de la situación de salida y un concepto. Los análisis de salida definen la problemática, y el concepto define qué funciones y características debe ofrecer el producto #[em software] para satisfacer las necesidades del cliente.
+                  .col-lg-5(style="place-self:center;")
+                    figure.m-auto.col-7.col-md-7.col-lg-12
+                      img(src="@/assets/curso/tema2/7.png")
+              div(x="75%" y="28%" tooltip="Ver más" numero="+")
+                .row
+                  .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+                    h4 Diseño
+                    p.mt-4 En esta fase se formula una solución específica para la problemática definida o establecida en los requisitos, aquí los desarrolladores de #[em software] se encargarán de construir un diseño de la arquitectura del sistema, así como un plan de diseño, enfocados en los componentes, interfaces, entornos de trabajos y bibliotecas. Esta fase da como resultado un estimado del plan de diseño y los planes de prueba para los diferentes componentes. 
+                  .col-lg-5(style="place-self:center;")
+                    figure.m-auto.col-7.col-md-7.col-lg-12
+                      img(src="@/assets/curso/tema2/8.png")
+              div(x="75%" y="50%" tooltip="Ver más" numero="+")
+                .row
+                  .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+                    h4 Implementación
+                    p.mt-4 La arquitectura otorgada en la fase de diseño se desarrolla en la fase de implementación, en la que se construye el código fuente que representa dicha arquitectura en un lenguaje de programación, también incluye la búsqueda de errores y pruebas unitarias. 
+                    p.mt-4 Esta fase genera como resultado un producto #[em software] que se despliega por primera vez como insumo de la siguiente fase. 
+                  .col-lg-5(style="place-self:center;")
+                    figure.m-auto.col-7.col-md-7.col-lg-12
+                      img(src="@/assets/curso/tema2/9.png")
+              div(x="75%" y="72%" tooltip="Ver más" numero="+")
+                .row
+                  .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
+                    h4 Verificación
+                    p.mt-4 Esta fase incluye el proceso de integración y despliegue del producto #[em software] en el entorno seleccionado, por lo general se prueba y envía con una serie de usuarios finales seleccionados. Se aplican las pruebas de aceptación incluidas en la fase de análisis y con ello se puede determinar si el #[em software] cumple o no con las necesidades definidas. 
+                    p.mt-4 Los productos que superan estas pruebas, son aquellos que pueden continuar hacia el proceso de liberación hacia el público en general o su target específico. 
+                  .col-lg-5(style="place-self:center;")
+                    figure.m-auto.col-7.col-md-7.col-lg-12
+                      img(src="@/assets/curso/tema2/10.png")
+              div(x="75%" y="93%" tooltip="Ver más" numero="+")
                 .row
                   .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
                     h4 Mantenimiento
@@ -1777,6 +1837,13 @@ export default {
   left: -12px
   padding: 20px
 .infografia_2_2.img-infografica-b.color-acento-botones .img-infografica-b__item__numero
+  color: #12263F
+  font-size: 30px
+.infografiab_1 .img-infografica__item__dot:before, .infografiab_1 .img-infografica__item__dot:after, .infografiab_1 .img-infografica-b__item__dot:before, .infografiab_1 .img-infografica-b__item__dot:after
+  top: -12px
+  left: -12px
+  padding: 20px
+.infografiab_1.img-infografica-b.color-acento-botones .img-infografica-b__item__numero
   color: #12263F
   font-size: 30px
 .img-infografica-b__modal
