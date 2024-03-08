@@ -1840,8 +1840,8 @@ export default {
   color: #12263F
   font-size: 30px
 .infografiab_1 .img-infografica__item__dot:before, .infografiab_1 .img-infografica__item__dot:after, .infografiab_1 .img-infografica-b__item__dot:before, .infografiab_1 .img-infografica-b__item__dot:after
-  top: -12px
-  left: -12px
+  top: -10px
+  left: -10px
   padding: 20px
 .infografiab_1.img-infografica-b.color-acento-botones .img-infografica-b__item__numero
   color: #12263F
