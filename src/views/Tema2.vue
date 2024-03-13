@@ -1249,7 +1249,7 @@
             p.mt-4 Un formato de registro de tiempo, debe contener los elementos mostrados en la siguiente figura:
           .col-lg-7(style="place-self:center;")
             .titulo-sexto.color-acento-contenido
-              h5 Figura 1.
+              h5
               span Ejemplo formato de registro de tiempo
             figure.mt-4
               img(src='@/assets/curso/tema2/73.svg' alt="La imagen presenta un ejemplo de un formato del registro de tiempo.")
@@ -1261,7 +1261,7 @@
             p.mt-4 Un formato de registro de defectos, debe contener los elementos que se muestran a continuación
           .col-lg-7(style="place-self:center;")
             .titulo-sexto.color-acento-contenido
-              h5 Figura 2.
+              h5
               span Ejemplo formato de registro de defectos
             figure.mt-4
               img(src='@/assets/curso/tema2/74.svg' alt="La imagen presenta un ejemplo de formato de registro de defectos.")
@@ -1273,7 +1273,7 @@
             p.mt-4 Un formato de resumen del plan del proyecto debe contener los elementos mostrados en la siguiente figura:
           .col-lg-7(style="place-self:center;")
             .titulo-sexto.color-acento-contenido
-              h5 Figura 3.
+              h5
               span Ejemplo resumen del plan del proyecto
             figure.mt-4
               img(src='@/assets/curso/tema2/75.svg' alt="La imagen presenta un resumen de un plan de proyecto, donde se presenta el tiempo en la fase, los defectos encontrados y los defectos removidos.")
