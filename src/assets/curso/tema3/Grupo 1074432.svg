@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="536" height="212" viewBox="0 0 536 212">
+  <g id="Grupo_1074432" data-name="Grupo 1074432" transform="translate(-810 -6093)">
+    <rect id="Rectángulo_383278" data-name="Rectángulo 383278" width="536" height="212" rx="7" transform="translate(810 6093)" fill="#fff"/>
+    <g id="Grupo_1074431" data-name="Grupo 1074431" transform="translate(5 -5)">
+      <text id="Este_primer_bloque_define_al_red." data-name="Este primer bloque define al red." transform="translate(836 6235)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-66.766" y="15">Este primer bloque </tspan><tspan x="-45.574" y="33">define al red.</tspan></text>
+      <text id="Estos_tres_bloques_señalan_los_dispositivos_que_se_conectan_a_la_red." data-name="Estos tres bloques señalan los dispositivos que se conectan a la red." transform="translate(1073 6235)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-95.594" y="15">Estos tres bloques señalan </tspan><tspan x="-80.883" y="33">los dispositivos que se </tspan><tspan x="-63.043" y="51">conectan a la red.</tspan></text>
+      <g id="Grupo_1074430" data-name="Grupo 1074430" transform="translate(11 -5)">
+        <text id="_8_bits" data-name="8 bits" transform="translate(866 6124)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-19.383" y="17">8</tspan><tspan y="17" xml:space="preserve" font-family="Roboto-Italic, Roboto" font-style="italic"> bits</tspan></text>
+        <text id="_1_bit" data-name="1 bit" transform="translate(821 6155.5)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-15.363" y="17">1 </tspan><tspan y="17" font-family="Roboto-Italic, Roboto" font-style="italic">bit</tspan></text>
+        <text id="_7_bits" data-name="7 bits" transform="translate(873 6155.5)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-19.402" y="17">7 </tspan><tspan y="17" font-family="Roboto-Italic, Roboto" font-style="italic">bits</tspan></text>
+        <text id="_24_bits" data-name="24 bits" transform="translate(1105 6124)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-23.875" y="17">24</tspan><tspan y="17" xml:space="preserve" font-family="Roboto-Italic, Roboto" font-style="italic"> bits</tspan></text>
+        <g id="Grupo_1074426" data-name="Grupo 1074426">
+          <line id="Línea_299" data-name="Línea 299" x2="30" transform="translate(925.5 6133.5)" fill="none" stroke="#273a89" stroke-width="1"/>
+          <g id="Polígono_23" data-name="Polígono 23" transform="translate(963.5 6128) rotate(90)" fill="#273a89">
+            <path d="M 10.15436172485352 9.5 L 0.8456379771232605 9.5 L 5.5 1.037523627281189 L 10.15436172485352 9.5 Z" stroke="none"/>
+            <path d="M 5.5 2.075047492980957 L 1.691275596618652 9 L 9.308724403381348 9 L 5.5 2.075047492980957 M 5.5 0 L 11 10 L 0 10 L 5.5 0 Z" stroke="none" fill="#273a89"/>
+          </g>
+        </g>
+        <g id="Grupo_1074429" data-name="Grupo 1074429" transform="translate(340.5)">
+          <line id="Línea_299-2" data-name="Línea 299" x2="130.5" transform="translate(825 6133.5)" fill="none" stroke="#273a89" stroke-width="1"/>
+          <g id="Polígono_23-2" data-name="Polígono 23" transform="translate(963.5 6128) rotate(90)" fill="#273a89">
+            <path d="M 10.15436172485352 9.5 L 0.8456379771232605 9.5 L 5.5 1.037523627281189 L 10.15436172485352 9.5 Z" stroke="none"/>
+            <path d="M 5.5 2.075047492980957 L 1.691275596618652 9 L 9.308724403381348 9 L 5.5 2.075047492980957 M 5.5 0 L 11 10 L 0 10 L 5.5 0 Z" stroke="none" fill="#273a89"/>
+          </g>
+        </g>
+        <g id="Grupo_1074427" data-name="Grupo 1074427" transform="translate(839 6128)">
+          <line id="Línea_299-3" data-name="Línea 299" x1="30" transform="translate(8 5.5)" fill="none" stroke="#273a89" stroke-width="1"/>
+          <g id="Polígono_23-3" data-name="Polígono 23" transform="translate(0 11) rotate(-90)" fill="#273a89">
+            <path d="M 10.15436172485352 9.5 L 0.8456379771232605 9.5 L 5.5 1.037523627281189 L 10.15436172485352 9.5 Z" stroke="none"/>
+            <path d="M 5.5 2.075047492980957 L 1.691275596618652 9 L 9.308724403381348 9 L 5.5 2.075047492980957 M 5.5 0 L 11 10 L 0 10 L 5.5 0 Z" stroke="none" fill="#273a89"/>
+          </g>
+        </g>
+        <g id="Grupo_1074428" data-name="Grupo 1074428" transform="translate(970.5 6128)">
+          <line id="Línea_299-4" data-name="Línea 299" x1="130" transform="translate(8 5.5)" fill="none" stroke="#273a89" stroke-width="1"/>
+          <g id="Polígono_23-4" data-name="Polígono 23" transform="translate(0 11) rotate(-90)" fill="#273a89">
+            <path d="M 10.15436172485352 9.5 L 0.8456379771232605 9.5 L 5.5 1.037523627281189 L 10.15436172485352 9.5 Z" stroke="none"/>
+            <path d="M 5.5 2.075047492980957 L 1.691275596618652 9 L 9.308724403381348 9 L 5.5 2.075047492980957 M 5.5 0 L 11 10 L 0 10 L 5.5 0 Z" stroke="none" fill="#273a89"/>
+          </g>
+        </g>
+        <g id="Rectángulo_383404" data-name="Rectángulo 383404" transform="translate(839 6178)" fill="#add3fd" stroke="#707070" stroke-width="1">
+          <rect width="465" height="26" stroke="none"/>
+          <rect x="0.5" y="0.5" width="464" height="25" fill="none"/>
+        </g>
+        <g id="Rectángulo_383405" data-name="Rectángulo 383405" transform="translate(839 6178)" fill="#ffce00" stroke="#707070" stroke-width="1">
+          <rect width="132" height="26" stroke="none"/>
+          <rect x="0.5" y="0.5" width="131" height="25" fill="none"/>
+        </g>
+        <text id="_0" data-name="0" transform="translate(843 6181.5)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-4.492" y="15">0</tspan></text>
+        <text id="Id_de_Red" data-name="Id de Red" transform="translate(866 6181.5)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-33.074" y="15">Id de Red</tspan></text>
+        <text id="Host" transform="translate(990 6181.5)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-16.648" y="17">Host</tspan></text>
+        <text id="Host-2" data-name="Host" transform="translate(1101 6181.5)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-16.648" y="17">Host</tspan></text>
+        <text id="Host-3" data-name="Host" transform="translate(1211 6181.5)" fill="#12263f" font-size="16" font-family="Roboto-Italic, Roboto" font-style="italic"><tspan x="-16.648" y="17">Host</tspan></text>
+        <line id="Línea_295" data-name="Línea 295" y2="26" transform="translate(861.5 6178)" fill="none" stroke="#707070" stroke-width="1"/>
+        <line id="Línea_297" data-name="Línea 297" y2="26" transform="translate(1081.5 6178)" fill="none" stroke="#707070" stroke-width="1"/>
+        <line id="Línea_298" data-name="Línea 298" y2="26" transform="translate(1192.5 6178)" fill="none" stroke="#707070" stroke-width="1"/>
+      </g>
+      <g id="Unión_11" data-name="Unión 11" transform="translate(-6805.999 -5496)" fill="#ffce00">
+        <path d="M 7715.99951171875 11724.9990234375 L 7707.86474609375 11710.900390625 L 7710.4833984375 11710.900390625 L 7710.9833984375 11710.900390625 L 7710.9833984375 11710.400390625 L 7710.9833984375 11700.4990234375 L 7721.59619140625 11700.4990234375 L 7721.59619140625 11710.400390625 L 7721.59619140625 11710.900390625 L 7722.09619140625 11710.900390625 L 7724.13330078125 11710.900390625 L 7715.99951171875 11724.9990234375 Z" stroke="none"/>
+        <path d="M 7711.4833984375 11700.9990234375 L 7711.4833984375 11711.400390625 L 7708.73046875 11711.400390625 L 7715.99951171875 11723.9990234375 L 7723.267578125 11711.400390625 L 7721.09619140625 11711.400390625 L 7721.09619140625 11700.9990234375 L 7711.4833984375 11700.9990234375 M 7710.4833984375 11699.9990234375 L 7722.09619140625 11699.9990234375 L 7722.09619140625 11710.400390625 L 7724.9990234375 11710.400390625 L 7715.99951171875 11726 L 7706.9990234375 11710.400390625 L 7710.4833984375 11710.400390625 L 7710.4833984375 11699.9990234375 Z" stroke="none" fill="#273a89"/>
+      </g>
+      <g id="Unión_12" data-name="Unión 12" transform="translate(-6539.999 -5496)" fill="#1682fb">
+        <path d="M 7715.99951171875 11724.9990234375 L 7707.86474609375 11710.900390625 L 7710.4833984375 11710.900390625 L 7710.9833984375 11710.900390625 L 7710.9833984375 11710.400390625 L 7710.9833984375 11700.4990234375 L 7721.59619140625 11700.4990234375 L 7721.59619140625 11710.400390625 L 7721.59619140625 11710.900390625 L 7722.09619140625 11710.900390625 L 7724.13330078125 11710.900390625 L 7715.99951171875 11724.9990234375 Z" stroke="none"/>
+        <path d="M 7711.4833984375 11700.9990234375 L 7711.4833984375 11711.400390625 L 7708.73046875 11711.400390625 L 7715.99951171875 11723.9990234375 L 7723.267578125 11711.400390625 L 7721.09619140625 11711.400390625 L 7721.09619140625 11700.9990234375 L 7711.4833984375 11700.9990234375 M 7710.4833984375 11699.9990234375 L 7722.09619140625 11699.9990234375 L 7722.09619140625 11710.400390625 L 7724.9990234375 11710.400390625 L 7715.99951171875 11726 L 7706.9990234375 11710.400390625 L 7710.4833984375 11710.400390625 L 7710.4833984375 11699.9990234375 Z" stroke="none" fill="#273a89"/>
+      </g>
+    </g>
+  </g>
+</svg>

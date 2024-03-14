@@ -36,7 +36,7 @@
           .col(style="place-self:center;")
             h4.mb-0.pe-4(style="padding-top:7px;") Metodología cascada
       
-      p(data-aos="fade-left" style="position:relative;") El desarrollo en cascada es un proceso lineal por lo que se identifica en separar los procesos del desarrollo de #[em software] en diferentes fases que son sucesivas en el contexto de la ejecución del proyecto. A diferencia de los modelos iterativos, cada una de las fases se ejecuta una sola vez, y el resultado de cada fase es un insumo para la siguiente. Esta metodología es usada especialmente en el proceso de desarrollo de #[em software]. 
+      p(data-aos="fade-left" style="position:relative;") El desarrollo en cascada es un proceso lineal, por lo que se identifica en separar los procesos del desarrollo de #[em software] en diferentes fases que son sucesivas en el contexto de la ejecución del proyecto. A diferencia de los modelos iterativos, cada una de las fases se ejecuta una sola vez, y el resultado de cada fase es un insumo para la siguiente. Esta metodología es usada especialmente en el proceso de desarrollo de #[em software]. 
 
       .col-xl-10.m-auto.mt-5(style="position:relative;")
         .cont_2_2.pt-5.pb-5.p-lg-3
@@ -328,7 +328,7 @@
           h4.mb-0.pe-4(style="padding-top:7px;") Estructurada por nivel de madurez
     
     p(data-aos="fade-left") Un nivel de madurez bien definido con las bases necesarias para evolucionar hacia un proceso de #[em software] maduro. 
-    p.mt-4(data-aos="fade-right") Los niveles representados por etapas, consideran cinco niveles de madurez, los cuales contienen un conjunto de áreas de proceso predefinidas, los cuales se miden por objetivos generales y específicos, estos se aplican a cada conjunto predefinidos de áreas de proceso. Veamos su distribución:
+    p.mt-4(data-aos="fade-right") Los niveles representados por etapas, consideran cinco niveles de madurez, los cuales contienen un conjunto de áreas de proceso predefinidas, los cuales se miden por objetivos generales y específicos, estos se aplican a cada conjunto predefinidos de área de proceso. Veamos su distribución:
 
     .cont_2_4.mt-5
       .col-xl-8.m-auto.mt-5(style="position:relative;")
@@ -340,7 +340,7 @@
                   img(src='@/assets/curso/tema2/20.svg' data-aos="zoom-in-up")
               div(x="76%" y="9%" tooltip="Ver más" numero="+")
                 h4 Nivel de madurez optimización
-                p.mt-4 En este nivel la organización ha logrado alcanzar todos los goalsof definidos en los niveles 1, 2, 3, 4 y 5, y los objetivos genéricos en los niveles 2 y 3. Este nivel está centrado en optimizar y en la mejora continua del rendimiento de los procesos de la organización. Una de las diferencias entre el nivel 4 y el 5 es que, en el nivel 4, los procesos están diseñados para causas especiales y proporcionan métricas para ser evaluadas por técnicas estadísticas; mientras que en el nivel 5, los procesos están diseñados para que se encarguen de las causas comunes de la variación y el cambio de los procesos, conservando las estadísticas para poder prever acciones futuras, este ajuste permite llegar a los objetivos cuantitativos de mejora continua. 
+                p.mt-4 En este nivel la organización ha logrado alcanzar todos los #[em goalsof] definidos en los niveles 1, 2, 3, 4 y 5, y los objetivos genéricos en los niveles 2 y 3. Este nivel está centrado en optimizar y en la mejora continua del rendimiento de los procesos de la organización. Una de las diferencias entre el nivel 4 y el 5 es que, en el nivel 4, los procesos están diseñados para causas especiales y proporcionan métricas para ser evaluadas por técnicas estadísticas; mientras que en el nivel 5, los procesos están diseñados para que se encarguen de las causas comunes de la variación y el cambio de los procesos, conservando las estadísticas para poder prever acciones futuras, este ajuste permite llegar a los objetivos cuantitativos de mejora continua. 
               div(x="70%" y="30%" tooltip="Ver más" numero="+")
                 h4 Nivel de madurez administrativo cuantitativamente 
                 p.mt-4 Se ha logrado con éxito obtener los objetivos específicos de los niveles 2, 3 y 4 y los objetivos genéricos en los niveles 2 y 3. En este nivel se seleccionan los procesos que aportan significativamente al rendimiento del proceso en general, concluyendo subprocesos que se controlan por medio de métricas, reportes y estadísticas que permiten medir la capacidad. Estas métricas posibilitan identificar casos que generen problemas para ser corregidos y no se repitan en el futuro, también para tomar decisiones de negocio que proyectan el crecimiento de la organización. 
@@ -353,7 +353,7 @@
                 p.mt-4 Los objetivos generales y específicos han sido alcanzados, por decirlo de alguna manera, los proyectos han asegurado que los requisitos son gestionados, los procesos son planificados, y ejecutados de manera controlada. Se garantiza que los procesos se sigan ejecutando bajo presión y alto nivel de estrés, conforme a los planes documentados, y los productos o servicios satisfacen las necesidades del cliente en los requisitos especificados, también los objetivos y normas. 
               div(x="30%" y="89.5%" tooltip="Ver más" numero="+")
                 h4 Nivel de madurez inicial 
-                p.mt-4 Los procesos suelen ser ad hoc y caóticos, en el cual se gestionan y crean productos o servicios que no funcionan, excediendo el presupuesto y el calendario de entregas. Las organizaciones en este nivel abandonan los proyectos ante una crisis y no tienen la capacidad de replicar los éxitos y buenas prácticas de procesos previos. 
+                p.mt-4 Los procesos suelen ser #[em ad hoc] y caóticos, en el cual se gestionan y crean productos o servicios que no funcionan, excediendo el presupuesto y el calendario de entregas. Las organizaciones en este nivel abandonan los proyectos ante una crisis y no tienen la capacidad de replicar los éxitos y buenas prácticas de procesos previos. 
 
     .cont_titulo_decorativo.mt-5(data-aos="fade-right")
       .row
@@ -460,7 +460,7 @@
               h4.mt-4.bg-white.p-1(style="max-width:fit-content;color:#273A89 !important;") Propósito del aseguramiento de la calidad de #[em(style="color:#273A89 !important;") software] (SQA)
               p.mt-4 El propósito principal del SQA es detectar diversos problemas en las fases iniciales del desarrollo del #[em software], estimando que es menos costosa su corrección.
     
-    p(data-aos="fade-right") La calidad del #[em software] puede medirse hasta la fase de implementación, pero de ser detectados allí los problemas de construcción del producto, implicaría costos extras, por esta razón se aconseja atender y solucionar los posibles errores en las fases iniciales, como en el diseño. Por lo tanto, es necesario tener en cuenta el proceso de SQA durante las etapas iniciales de la construcción del producto, puesto que es donde se definen las características de éste y lo que debe garantizar para satisfacer las necesidades implícitas y explícitas. Si el diseño y los requerimientos no están correctamente definidos, es decir que son ambiguos, incompletos o son incoherentes, al momento de implementar el producto va a ser muy costosa su corrección.
+    p(data-aos="fade-right") La calidad del #[em software] puede medirse hasta la fase de implementación, pero de ser detectados allí los problemas de construcción del producto, implicaría costos extras, por esta razón se aconseja atender y solucionar los posibles errores en las fases iniciales, como en el diseño. Por lo tanto, es necesario tener en cuenta el proceso de SQA durante las etapas iniciales de la construcción del producto, puesto que es donde se definen las características de este y lo que debe garantizar para satisfacer las necesidades implícitas y explícitas. Si el diseño y los requerimientos no están correctamente definidos, es decir que son ambiguos, incompletos o son incoherentes, al momento de implementar el producto va a ser muy costosa su corrección.
 
     .cont_2_8.pt-5.mt-4
       .cont_titulo_decorativo(data-aos="fade-right")
@@ -614,7 +614,7 @@
           figure
             img(src="@/assets/curso/tema2/37.svg" style="max-width:90px;display:inline;")
           h4.mt-4 Construcción
-          p.mt-3 Se crean los artefactos de prueba y el script de pruebas.
+          p.mt-3 Se crean los artefactos de prueba y el #[em script] de pruebas.
       .col-lg.col-md-8.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.p-4.cont_hover1(style="background-color:#DCECFE;border-radius:12px;")
           .text-end 
@@ -625,7 +625,7 @@
           figure
             img(src="@/assets/curso/tema2/38.svg" style="max-width:90px;display:inline;")
           h4.mt-4 Ejecución
-          p.mt-3 En esta etapa se encuentran los defectos y se ejecutan los scripts de pruebas creados previamente.
+          p.mt-3 En esta etapa se encuentran los defectos y se ejecutan los #[em scripts] de pruebas creados previamente.
     
     Separador
 
@@ -644,7 +644,7 @@
                   img(src="@/assets/curso/tema2/41.svg")
               .col(style="place-self:center;")
                 p.mb-0 Los modelos de calidad son documentos que constituyen una parte importante de las mejores prácticas, plantean aspectos de administración en la cual las organizaciones deben hacer énfasis, además componen diversas prácticas que facilitan la medición de los avances en la calidad. 
-          p.mt-4 Los estándares de calidad además de ser una guía para alcanzar la calidad y la productividad, permiten especificar una serie de criterios de desarrollo para orientar la manera en que se emplea la ingeniería de #[em software]. A continuación, se nombran los modelos más importantes que evalúan la calidad del producto de #[em software].
+          p.mt-4 Los estándares de calidad, además de ser una guía para alcanzar la calidad y la productividad, permiten especificar una serie de criterios de desarrollo para orientar la manera en que se emplea la ingeniería de #[em software]. A continuación, se nombran los modelos más importantes que evalúan la calidad del producto de #[em software].
         .col-lg-4(data-aos="fade-left" style="place-self:center;")
           figure.m-auto.col-7.col-md-7.col-lg-12
             img(src="@/assets/curso/tema2/42.png")
@@ -667,9 +667,9 @@
         table
           thead(style="border:0;")
             tr(style="background-color:#273A89;")
-              th.text-white.text-center(style="border:1px white solid;") PERSPECTIVAS
-              th.text-white.text-center(style="border:1px white solid;") FACTORES
-              th.text-white.text-center(style="border:1px white solid;") CRITERIOS
+              th.text-white.text-center(style="border:1px white solid;") Perspectivas
+              th.text-white.text-center(style="border:1px white solid;") Factores
+              th.text-white.text-center(style="border:1px white solid;") Criterios
           tbody
             tr(style="background-color:#DCECFE;")
               td(style="border:1px white solid;" rowspan="5") Operatividad del producto: factores de calidad que influyen en el grado en que el #[em software] cumple con su especificación.
@@ -756,8 +756,8 @@
         table(style="min-width:100%;")
           thead(style="border:0;")
             tr(style="background-color:#273A89;")
-              th.text-white.text-center(style="border:1px white solid;") FACTORES
-              th.text-white.text-center(style="border:1px white solid;") CRITERIOS
+              th.text-white.text-center(style="border:1px white solid;") Factores
+              th.text-white.text-center(style="border:1px white solid;") Criterios
           tbody
             tr(style="background-color:#DCECFE;")
               td.text-center(style="border:1px white solid;") Funcionalidad
@@ -839,8 +839,8 @@
         table(style="min-width:100%;")
           thead(style="border:0;")
             tr(style="background-color:#273A89;")
-              th.text-white.text-center(style="border:1px white solid;") FACTORES
-              th.text-white.text-center(style="border:1px white solid;") CRITERIOS
+              th.text-white.text-center(style="border:1px white solid;") Factores
+              th.text-white.text-center(style="border:1px white solid;") Criterios
           tbody
             tr(style="background-color:#DCECFE;")
               td.text-center(style="border:1px white solid;") Portabilidad
@@ -896,8 +896,8 @@
         table(style="min-width:100%;")
           thead(style="border:0;")
             tr(style="background-color:#273A89;")
-              th.text-white.text-center(style="border:1px white solid;") FACTORES
-              th.text-white.text-center(style="border:1px white solid;") CRITERIOS
+              th.text-white.text-center(style="border:1px white solid;") Factores
+              th.text-white.text-center(style="border:1px white solid;") Criterios
           tbody
             tr(style="background-color:#DCECFE;")
               td.text-center(style="border:1px white solid;") Funcionalidad

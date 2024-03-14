@@ -16,7 +16,7 @@
           .col-lg-9(data-aos="fade-left" style="place-self:center;")
             .col-xl-10.m-auto.p-3
               .p-lg-4.pt-lg-0
-                p.mb-5.mb-md-0 La documentación de productos de #[em software] son artefactos importantes, dado que estos permiten transferir y comunicar aspectos que al revisar o inspeccionar un sistema no se pueden entender rápidamente y suele ser complicado, por tal razón es que se documenta para comprender, compartir y mostrar el comportamiento y la estructura de un sistema o de sus componentes, controlar y visualizar las arquitectura del sistema y controlar el riesgo, además la documentación debe utilizarse para el desarrollo del producto #[em software] y su mantenimiento en el futuro resaltando que no solo se documenta un proceso respecto a la calidad, sino, también las fases del desarrollo del #[em software], requerimientos, análisis, diseño, construcción y pruebas. Sin embargo, cuando se requiere documentar un proceso de calidad de #[em software] es pertinente tener en cuenta tanto el plan de pruebas como los resultados arrojados que se muestran en los apartados siguientes. 
+                p.mb-5.mb-md-0 La documentación de productos de #[em software] son artefactos importantes, dado que estos permiten transferir y comunicar aspectos que al revisar o inspeccionar un sistema no se pueden entender rápidamente y suele ser complicado, por tal razón es que se documenta para comprender, compartir y mostrar el comportamiento y la estructura de un sistema o de sus componentes, controlar y visualizar la arquitectura del sistema y controlar el riesgo, además la documentación debe utilizarse para el desarrollo del producto #[em software] y su mantenimiento en el futuro resaltando que no solo se documenta un proceso respecto a la calidad, sino, también las fases del desarrollo del #[em software], requerimientos, análisis, diseño, construcción y pruebas. Sin embargo, cuando se requiere documentar un proceso de calidad de #[em software] es pertinente tener en cuenta tanto el plan de pruebas como los resultados arrojados que se muestran en los apartados siguientes. 
       
       Separador
 
@@ -147,7 +147,7 @@
               p.fw-bold.mb-0 CONSTRUCCIÓN
           .col-lg
             .p-lg-4
-              p #[strong Caso de prueba:] conjunto de condiciones con las cuales un tester debe determinar si un sistema funciona según lo requerido. 
+              p #[strong Caso de prueba:] conjunto de condiciones con las cuales un #[em tester] debe determinar si un sistema funciona según lo requerido. 
               p.mt-4.mb-0 #[strong #[em Script] de prueba:] recopilación de instrucciones que se realizan al #[em software] sujeto a prueba para verificar que el sistema funciona de acuerdo con lo requerido. Hay scripts de pruebas automatizadas y manuales.
       .cont_3_4_3.p-4.p-lg-0(data-aos="zoom-in")
         .row
@@ -281,7 +281,7 @@
               img(src="@/assets/curso/tema2/2.svg")
           .col(style="place-self:center;")
             h4.mb-0.pe-4(style="padding-top:7px;") Principales elementos para redactar un #[em script] de prueba
-      p(data-aos="fade-left") Este artefacto es responsabilidad del tester, siendo este quien lo escribe y lo ejecuta. A continuación, se nombran los principales elementos que debe contener un #[em script] de prueba:
+      p(data-aos="fade-left") Este artefacto es responsabilidad del #[em tester], siendo este quien lo escribe y lo ejecuta. A continuación, se nombran los principales elementos que debe contener un #[em script] de prueba:
       .col-xl-9.m-auto.mt-4
         .row.justify-content-center
           .col-lg-4.mb-4.col-md-8(data-aos="zoom-in")
@@ -343,7 +343,7 @@
         figure.m-auto.col-6.col-md-6.col-lg-12
           img(src="@/assets/curso/tema3/29.svg")
     
-    p.mt-5(data-aos="fade-right") Estos elementos se describen en un plan de pruebas, sin embargo, es posible que en los equipos se tome la decisión de no diseñarlo, en ese sentido se recomienda que los tester tomen notas o documente los factores más importantes relacionados con las pruebas en cada #[em release].
+    p.mt-5(data-aos="fade-right") Estos elementos se describen en un plan de pruebas, sin embargo, es posible que en los equipos se tome la decisión de no diseñarlo, en ese sentido se recomienda que los #[em tester] tomen notas o documente los factores más importantes relacionados con las pruebas en cada #[em release].
 
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
@@ -364,7 +364,7 @@
           li.d-flex
             .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
               span.fw-bold(style="color:initial;") 3
-            div Recursos en este caso el nombre de los tester.
+            div Recursos en este caso el nombre de los #[em tester].
           li.d-flex
             .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
               span.fw-bold(style="color:initial;") 4
@@ -372,7 +372,7 @@
           li.d-flex
             .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
               span.fw-bold(style="color:initial;") 5
-            div Los tipos de pruebas (pruebas de rendimiento, pruebas de aceptación (UAT)) que se van a realizar.
+            div Los tipos de pruebas (pruebas de rendimiento, pruebas de aceptación - UAT) que se van a realizar.
           li.d-flex
             .lista-ol--cuadro__vineta(style="background-color:#3EE2A8;")
               span.fw-bold(style="color:initial;") 6
@@ -423,7 +423,7 @@
             img(src="@/assets/curso/tema2/2.svg")
         .col(style="place-self:center;")
           h4.mb-0.pe-4(style="padding-top:7px;") Incidencias detectadas
-    p(data-aos="fade-left") La gestión de incidencias es un elemento central e importante en el proceso de calidad de #[em software], puesto que es en este punto donde se tienen en cuenta los errores (bugs). Por lo tanto, el propósito de las incidencias detectadas es precisamente generar su corrección, de tal manera que sea mínimamente probable que el error se repita.
+    p(data-aos="fade-left") La gestión de incidencias es un elemento central e importante en el proceso de calidad de #[em software], puesto que es en este punto donde se tienen en cuenta los errores (#[em bugs]). Por lo tanto, el propósito de las incidencias detectadas es precisamente generar su corrección, de tal manera que sea mínimamente probable que el error se repita.
 
     .cont_titulo_decorativo.mt-5(data-aos="fade-right")
       .row
