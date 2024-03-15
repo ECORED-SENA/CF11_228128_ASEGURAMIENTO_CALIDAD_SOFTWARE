@@ -437,7 +437,7 @@
     .col-xl-10.m-auto.mt-5
       .titulo-sexto.color-acento-contenido(data-aos="zoom-in-down")
         h5 Figura 5.
-        span Ciclo de vida de una incidencia de #[em software] (bug)
+        span Ciclo de vida de una incidencia de #[em software] (#[em bug])
       .cont_image_3_1.mt-4.p-3.p-lg-5(data-aos="zoom-in-up")
         figure
           img(src="@/assets/curso/tema3/28.svg" alt="Imagen que presenta el ciclo de vida de una incidencia de software, desde que se inicia el proceso de prueba, hasta qye se cierra el proceso.")
