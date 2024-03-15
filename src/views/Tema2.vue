@@ -328,7 +328,7 @@
           h4.mb-0.pe-4(style="padding-top:7px;") Estructurada por nivel de madurez
     
     p(data-aos="fade-left") Un nivel de madurez bien definido con las bases necesarias para evolucionar hacia un proceso de #[em software] maduro. 
-    p.mt-4(data-aos="fade-right") Los niveles representados por etapas, consideran cinco niveles de madurez, los cuales contienen un conjunto de áreas de proceso predefinidas, los cuales se miden por objetivos generales y específicos, estos se aplican a cada conjunto predefinidos en cada área de proceso. Veamos su distribución:
+    p.mt-4(data-aos="fade-right") Los niveles representados por etapas, consideran cinco niveles de madurez, los cuales contienen un conjunto de áreas de proceso predefinidas, los cuales se miden por objetivos generales y específicos, estos se aplican a los conjuntos predefinidos en cada área de proceso. Veamos su distribución:
 
     .cont_2_4.mt-5
       .col-xl-8.m-auto.mt-5(style="position:relative;")
