@@ -1415,7 +1415,7 @@
           p Dentro del equipo, hay roles que se dividen en dos categorías fundamentales: los roles centrales que hacen referencia a los requeridos obligatoriamente para la creación de un producto, están altamente comprometidos y de los cuales depende el éxito o no de un proyecto, y también están los roles no centrales que hace referencia a todos el personal interesado en el proyecto, pueden interactuar con el equipo pero no son los responsables del éxito del mismo, dentro de esta categoría entran los #[em stakeholders], directivos, gerentes, #[em marketing], asesores, etc.
         .col-lg(data-aos="fade-left" style="place-self:center;")
           figure.m-auto.col-10.col-md-8.col-lg-12
-            img(src="@/assets/curso/tema2/80.svg")
+            img(src="@/assets/curso/tema2/80.svg" alt='La imagen ilustra un ciclo de trabajo utilizando la metodología Scrum. En el centro de la imagen, se encuentra un círculo dividido en tres secciones: "Planificación", "Desarrollo" y "Revisión y Retrospectiva". Estas secciones representan las principales etapas del ciclo Scrum.')
     
     p.mt-5(data-aos="fade-right") Existen tres roles centrales dentro del marco de trabajo de Scrum:
 
@@ -1640,7 +1640,7 @@
               span Ejemplo formato de registro de tiempo
             .p-3.p-lg-5(style="background-color:#DCECFE;")
               figure
-                img(src="@/assets/curso/tema2/90.svg")
+                img(src="@/assets/curso/tema2/90.svg" alt="La imagen muestra un formato de registro de tiempo utilizado en un entorno de trabajo. El formato está dividido en varias secciones claramente identificadas, incluyendo columnas para la fecha, hora de inicio, hora de finalización, duración, tarea realizada y comentarios adicionales.")
     
     p.mt-4(data-aos="fade-right") Cada cuadrante involucra pruebas específicas, las cuales se distribuyen de acuerdo con los roles ejercidos, es así como se tienen dos tipos de pruebas:
 

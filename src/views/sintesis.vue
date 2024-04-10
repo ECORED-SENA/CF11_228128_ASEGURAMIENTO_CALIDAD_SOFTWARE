@@ -7,7 +7,7 @@
       .row.justify-content-center(data-aos="zoom-in-up")
         .col-lg-10.mb-5
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="alt")
+            img(src="@/assets/curso/sintesis.svg", alt="Imagen que muestra una síntesis visual del componente formativo")
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono

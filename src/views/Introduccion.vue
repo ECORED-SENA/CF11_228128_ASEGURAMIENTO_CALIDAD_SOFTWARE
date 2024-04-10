@@ -17,22 +17,22 @@
             .row
               .col-4.col-md-auto.m-auto(style="place-self:center;")
                 figure.mb-4.mb-md-0
-                  img(src="@/assets/curso/intro1.svg")
+                  img(src="@/assets/curso/intro1.svg" alt="Imagen decorativa")
               .col-md.col-12(style="place-self:center;")
                 p.mb-0.text-white Dadas las circunstancias actuales, la demanda de construcción de productos de #[em software] va en auge, teniendo un crecimiento exponencial año por año. Si agregamos las iniciativas de modernización de las tecnologías y la tendencia de sistematizar y facilitar los procesos, implica tener más células de desarrollo operando, y mejoras en las fases de calidad del #[em software]. 
         .col-lg-4(data-aos="fade-left" style="place-self:center;")
           figure.m-auto.col-8.col-md-7.col-lg-12
-            img(src="@/assets/curso/intro2.png")
+            img(src="@/assets/curso/intro2.png" alt="Imagen decorativa")
       
       .col-xl-10.m-auto.mt-4
         .cont_intro2
           div.d-none.d-lg-block(style="width:100%;bottom:10%;top:10%;position:absolute;right:-5%;")
             figure
-              img(src="@/assets/curso/intro4.png")
+              img(src="@/assets/curso/intro4.png" alt="Imagen decorativa")
           .row.p-5.pt-4.pb-4.p-lg-0
             .col-lg-auto.col-md-5.col-7.m-auto(style="place-self:center;" data-aos="fade-right")
               figure.mb-2.mb-lg-0
-                img(src="@/assets/curso/intro3.png")
+                img(src="@/assets/curso/intro3.png" alt="Imagen decorativa")
             .col-lg.col-md-12.col-12.p-0.p-lg-4(style="place-self:center;" data-aos="fade-left")
               p.mb-0 En este componente formativo, usted podrá abordar los fundamentos de la calidad del software, entendiendo los valores misionales de las empresas, y cómo estos repercuten en los diferentes procesos de control de la misma. La calidad es una característica que debe ser transversal en todos y cada uno de estos procesos, porque de esta forma podremos asegurar éxito y productividad. Un quipo capacitado, comprometido y creativo es un valor agregado en la industria del software, que cada vez va en aumento, pero que también exige compromiso de todos.
 
