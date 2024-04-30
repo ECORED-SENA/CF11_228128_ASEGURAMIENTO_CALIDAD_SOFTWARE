@@ -77,7 +77,7 @@
                   .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
                     h4 Verificación
                     p.mt-4 Esta fase incluye el proceso de integración y despliegue del producto #[em software] en el entorno seleccionado, por lo general se prueba y envía con una serie de usuarios finales seleccionados. Se aplican las pruebas de aceptación incluidas en la fase de análisis y con ello se puede determinar si el #[em software] cumple o no con las necesidades definidas. 
-                    p.mt-4 Los productos que superan estas pruebas, son aquellos que pueden continuar hacia el proceso de liberación hacia el público en general o su target específico. 
+                    p.mt-4 Los productos que superan estas pruebas, son aquellos que pueden continuar hacia el proceso de liberación hacia el público en general o su #[em target] específico. 
                   .col-lg-5(style="place-self:center;")
                     figure.m-auto.col-7.col-md-7.col-lg-12
                       img(src="@/assets/curso/tema2/10.png")
@@ -258,7 +258,7 @@
                 div Asegurar que la aplicación, servicios y productos que se vendan o utilicen tienen la confianza y calidad requerida.
               li.d-flex
                 i.far.fa-file-code(style="color:#FFCE00;")
-                div Minimiza la cantidad de errores (Bugs).
+                div Minimiza la cantidad de errores (#[em Bugs]).
               li.d-flex
                 i.far.fa-file-code(style="color:#FFCE00;")
                 div Permite ahorrar tiempo en los procedimientos de entrega.
@@ -540,7 +540,7 @@
           .row(titulo="Prevención")
             p Se deben dirigir los esfuerzos a la prevención de defectos, es decir, que una vez que un defecto es detectado además de corregirlo se deben tomar medidas necesarias para que no vuelva a ocurrir. Es en este punto, donde se tiene en cuenta lo que es el análisis de las causas raíces, una vez que se encuentra un defecto se debe analizar por qué se ocasionó y cuál fue la causa que lo originó, por ejemplo, si es un problema en el proceso, o si es un problema con las herramientas que se están utilizando, o si fue una mala definición de los requerimientos, lo que constata que un error no solamente se soluciona o resuelve, sino que hay que indagar más en la causa raíz; porque de no hacerlo en el futuro se va a presentar el mismo problema.
           .row(titulo="Sistemas de detección")
-            p Hay que reforzar los sistemas de detección y eliminación de defectos durante las etapas iniciales, lo que reafirma que eliminando los defectos en las etapas de requerimientos y diseño, estamos asegurando que esos defectos no van a ser replicados en las etapas subsiguientes, por ende es menos costoso detectar y corregir los defectos en las etapas iniciales, por ejemplo si detectamos un defecto en los requerimientos o en el diseño del #[em software], lo más posible es que se tenga que corregir documentos o diagramas, pero si se espera a la etapa de desarrollo o cuando el #[em software] ya está en producción, tenemos que volver hacia atrás en todas las fases del ciclo de vida del desarrollo del software.
+            p Hay que reforzar los sistemas de detección y eliminación de defectos durante las etapas iniciales, lo que reafirma que eliminando los defectos en las etapas de requerimientos y diseño, estamos asegurando que esos defectos no van a ser replicados en las etapas subsiguientes, por ende es menos costoso detectar y corregir los defectos en las etapas iniciales, por ejemplo si detectamos un defecto en los requerimientos o en el diseño del #[em software], lo más posible es que se tenga que corregir documentos o diagramas, pero si se espera a la etapa de desarrollo o cuando el #[em software] ya está en producción, tenemos que volver hacia atrás en todas las fases del ciclo de vida del desarrollo del #[em software].
           .row(titulo="Productividad")
             p La calidad al igual que la productividad, los costos y los plazos de entrega están al mismo nivel, lo que quiere decir que el cumplimiento de los plazos de entrega y mantenerse dentro del presupuesto también son variables que se evalúan dentro del proceso de aseguramiento de calidad de #[em software], porque de qué sirve un producto sin defectos cuando ha costado mucho más de lo presupuestado y se ha entregado cuando ya no será útil.
           .row(titulo="Participación")
@@ -997,7 +997,7 @@
           .row.justify-content-center.mb-3
             .col-4
               img(src='@/assets/curso/tema2/47.svg')
-          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Corección
+          h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Corrección
           p.text-center.mt-4 Nivel en que un #[em software] satisface las especificaciones y logra los objetivos propuestos por el cliente; lo anterior responde a la pregunta: ¿el #[em software] hace lo que yo quiero?
 
         .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
@@ -1061,7 +1061,7 @@
             .col-4
               img(src='@/assets/curso/tema2/56.svg')
           h5.text-center.bg-white.m-auto.mt-4(style="max-width:fit-content;color:#273A89;padding:2px;") Portabilidad
-          p.text-center.mt-4 Trabajo necesario para migrar el programa desde un hardware o un entorno de sistemas a otro ambiente u otro hardware; este factor responde a la pregunta: ¿podré usarlo en otra máquina o con otra configuración distinta a la máquina donde se desarrolló? 
+          p.text-center.mt-4 Trabajo necesario para migrar el programa desde un #[em hardware] o un entorno de sistemas a otro ambiente u otro #[em hardware]; este factor responde a la pregunta: ¿podré usarlo en otra máquina o con otra configuración distinta a la máquina donde se desarrolló? 
         
         .tarjeta.color-acento-botones.p-4.m-auto(style="background-color:#273A89;")
           .row.justify-content-center.mb-3
@@ -1137,7 +1137,7 @@
         p En la aplicación de la calidad de #[em software], generalmente los ingenieros o empresas comienzan a realizar pruebas y a detectar defectos en el momento en que la aplicación ha sido totalmente construida lo cual no es una acción correcta.
         .p-4.mt-4(style="background-color:#E1F6EF;border-radius:7px;")
           p.fw-bold Conclusión de los factores que afectan o determinan la calidad del #[em software]
-          p.mt-4.mb-0 Cuando calificamos la calidad de un producto se debe elegir los factores que van a ser estimados como requerimientos, por lo tanto, para realizar esta elección se debe tener en cuenta las propiedades particulares de la aplicación a desarrollar o de su ambiente, como ejemplo podemos observar que si la aplicación se desarrolla para un ambiente en el que el hardware evoluciona rápidamente entonces debemos tener en cuenta el factor de portabilidad, por otro lado si se espera que las especificaciones del sistema cambien frecuentemente entonces el factor flexibilidad va a ser importante. Otro punto que se debe tener en cuenta es el costo de los factores de calidad frente al beneficio que van a proporcionar (análisis de costo/beneficio), es decir que si agregamos todos los factores implicaría un incremento amplio de los costos, en lugar de lo anterior es prudente seleccionar los factores que logren contribuir el mayor valor posible al producto.
+          p.mt-4.mb-0 Cuando calificamos la calidad de un producto se debe elegir los factores que van a ser estimados como requerimientos, por lo tanto, para realizar esta elección se debe tener en cuenta las propiedades particulares de la aplicación a desarrollar o de su ambiente, como ejemplo podemos observar que si la aplicación se desarrolla para un ambiente en el que el #[em hardware] evoluciona rápidamente entonces debemos tener en cuenta el factor de portabilidad, por otro lado si se espera que las especificaciones del sistema cambien frecuentemente entonces el factor flexibilidad va a ser importante. Otro punto que se debe tener en cuenta es el costo de los factores de calidad frente al beneficio que van a proporcionar (análisis de costo/beneficio), es decir que si agregamos todos los factores implicaría un incremento amplio de los costos, en lugar de lo anterior es prudente seleccionar los factores que logren contribuir el mayor valor posible al producto.
     
     Separador
 
@@ -1286,7 +1286,7 @@
         .col(style="place-self:center;")
           h4.mb-0.pe-4(style="padding-top:7px;") TSP
     
-    p(data-aos="fade-left") #[em Team Software Process] (TSP) es un proceso de desarrollo que está diseñado para orientar a equipos de personas en la planeación, diseño y desarrollo de sistemas de software de calidad. Esta metodología administra el desarrollo de los procesos de #[em software], garantizando un entorno de trabajo natural y agradable para los equipos.
+    p(data-aos="fade-left") #[em Team Software Process] (TSP) es un proceso de desarrollo que está diseñado para orientar a equipos de personas en la planeación, diseño y desarrollo de sistemas de #[em software] de calidad. Esta metodología administra el desarrollo de los procesos de #[em software], garantizando un entorno de trabajo natural y agradable para los equipos.
     .row.mt-4
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         p El TSP contiene una serie de pasos estructurados con indicaciones para realizar las actividades en cada fase del desarrollo del proyecto, además es una herramienta útil referente a formación de equipos para el desarrollo de #[em software] de calidad, generando una planificación que permite determinar las responsabilidades y los roles en los equipos de trabajo. Para ello el TSP se basa en el PSP para formar profesionales con condiciones idóneas para la realización de proyectos demasiado grandes, además este marco contiene las características para generar planes detallados, utilizar datos de procesos, medir y gestionar la calidad del producto y detallar procesos operacionales.
@@ -1462,13 +1462,13 @@
           .row(titulo="<em>Sprint</em>")
             p Es el corazón de Scrum y se refiere a una iteración que está acotada generalmente por un lapso entre 2 y 4 semanas, donde se realiza un ciclo completo de actividades de análisis, diseño, construcción y pruebas, para desarrollar una versión del producto potencialmente entregable al cliente.
           .row(titulo="Planeación de <em>Sprint</em>")
-            p Reunión realizada justo antes del inicio de un Sprint, donde se definen el subconjunto de requerimientos (Sprint Backlog) a ser desarrollados en el siguiente Sprint y cómo será el proceso requerido para hacer la entrega del siguiente Sprint, lo cual incluye detallar los requerimientos en tareas concretas, estimación de tiempos/esfuerzo y distribución inicial de responsabilidades. Dependiendo de la duración del Sprint este tiempo de planificación puede variar, pero la métrica establecida para Sprint de 4 semanas corresponde a una planeación de Sprint de 8 horas.
+            p Reunión realizada justo antes del inicio de un #[em Sprint], donde se definen el subconjunto de requerimientos (#[em Sprint Backlog]) a ser desarrollados en el siguiente #[em Sprint] y cómo será el proceso requerido para hacer la entrega del siguiente #[em Sprint], lo cual incluye detallar los requerimientos en tareas concretas, estimación de tiempos/esfuerzo y distribución inicial de responsabilidades. Dependiendo de la duración del #[em Sprint] este tiempo de planificación puede variar, pero la métrica establecida para #[em Sprint] de 4 semanas corresponde a una planeación de #[em Sprint] de 8 horas.
           .row(titulo="Reunión diaria <em>(daily meeting)</em>")
             p Reunión realizada generalmente al inicio de cada día donde el equipo informa en que ha venido trabajando, qué cosas realizaré en el día y qué problemas se le han presentado. Es una reunión corta que se realiza de pie y que debe tener una duración alrededor de los 15 minutos. Esta reunión se alinea con los pilares de transparencia e inspección.
           .row(titulo="Revisión del <em>Sprint</em>")
-            p Reunión realizada al finalizar el Sprint, donde el equipo de desarrollo muestra los resultados del Sprint. Para Sprint de 4 semanas se usa reunión de revisiones 4 horas.
+            p Reunión realizada al finalizar el #[em Sprint], donde el equipo de desarrollo muestra los resultados del #[em Sprint]. Para #[em Sprint] de 4 semanas se usa reunión de revisiones 4 horas.
           .row(titulo="Revisión de retrospectiva")
-            p Última realizada luego de la revisión del Sprint y tiene como objetivo la autoevaluación personal y del grupo sobre el desempeño del Sprint que acaba de finalizar. En esta reunión se identifican y documentan los aprendizajes por medio de diferentes técnicas en las que generalmente se busca dar respuesta a las siguientes preguntas: ¿qué funcionó bien y se debe seguir haciendo?, ¿que no funcionó bien y se debe dejar de realizar? y ¿qué debemos empezar a mejorar? Para un Sprint de 4 semanas se utilizan 3 horas para esta reunión.
+            p Última realizada luego de la revisión del #[em Sprint] y tiene como objetivo la autoevaluación personal y del grupo sobre el desempeño del #[em Sprint] que acaba de finalizar. En esta reunión se identifican y documentan los aprendizajes por medio de diferentes técnicas en las que generalmente se busca dar respuesta a las siguientes preguntas: ¿qué funcionó bien y se debe seguir haciendo?, ¿que no funcionó bien y se debe dejar de realizar? y ¿qué debemos empezar a mejorar? Para un #[em Sprint] de 4 semanas se utilizan 3 horas para esta reunión.
       .col-lg-5(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-5.col-md-5.col-lg-12
           img(src="@/assets/curso/tema2/84.png")
@@ -1481,13 +1481,13 @@
           .tarjeta.color-acento-botones.p-4(titulo="Pila de producto <br>(<em>Product Backlog</em>)" style="background-color:#E1F6EF;")
             h4(style="color:#12263F;") Pila de producto (#[em(style="color:#12263F;") Product Backlog])
             p(style="color:#12263F;") Lista priorizada de requerimientos generalmente descritos en formato de historias de usuarios, que representa todas las características del sistema a construir.
-          .tarjeta.color-acento-botones.p-4(titulo="Pila del Sprint <br>(<em>Sprint Backlog</em>)" style="background-color:#E1F6EF;")
-            h4(style="color:#12263F;") Pila del Sprint (#[em(style="color:#12263F;") Sprint Backlog])
-            p(style="color:#12263F;") Lista de requerimientos seleccionados desde el Product backlog por el equipo de trabajo, para ser desarrollados durante un Sprint particular. Este es un de los artefactos generados en la reunión de planeación del Sprint.
+          .tarjeta.color-acento-botones.p-4(titulo="Pila del <em>Sprint</em> <br>(<em>Sprint Backlog</em>)" style="background-color:#E1F6EF;")
+            h4(style="color:#12263F;") Pila del #[em(style="color:#12263F;") Sprint] (#[em(style="color:#12263F;") Sprint Backlog])
+            p(style="color:#12263F;") Lista de requerimientos seleccionados desde el #[em(style="color:#12263F;") Product backlog] por el equipo de trabajo, para ser desarrollados durante un #[em(style="color:#12263F;") Sprint] particular. Este es un de los artefactos generados en la reunión de planeación del #[em(style="color:#12263F;") Sprint].
           .tarjeta.color-acento-botones.p-4(titulo="<em>Burndown Chart</em>" style="background-color:#E1F6EF;")
             h4(style="color:#12263F;") #[em(style="color:#12263F;") Burndown Chart]
             p(style="color:#12263F;") Es un gráfico de dos ejes que muestra a los equipos la cantidad de trabajo pendiente por completar (eje Y) y el tiempo disponible para hacerlo (eje X). 
-            p.mt-3(style="color:#12263F;") Este gráfico generalmente se realiza por cada Sprint, ubicando la cantidad trabajo a realizar del Sprint Backlog (usualmente mide puntos de historia o horas de trabajo) en un tiempo 0 y por cada día finalizado se resta la cantidad de puntos de historia u horas de cada tarea completada, también es posible usar este mismo gráfico para representar el avance general del proyecto, ubicando en el eje Y la cantidad total de horas o esfuerzo del Product Backlog y en el eje X la cantidad de Sprint proyectados. Cada uno de estos puntos se unen por medio de una línea y es posible determinar visualmente si el flujo de trabajo está en una situación óptima o no respecto al tiempo restante para completar el Sprint.
+            p.mt-3(style="color:#12263F;") Este gráfico generalmente se realiza por cada #[em(style="color:#12263F;") Sprint], ubicando la cantidad trabajo a realizar del #[em(style="color:#12263F;") Sprint Backlog] (usualmente mide puntos de historia o horas de trabajo) en un tiempo 0 y por cada día finalizado se resta la cantidad de puntos de historia u horas de cada tarea completada, también es posible usar este mismo gráfico para representar el avance general del proyecto, ubicando en el eje Y la cantidad total de horas o esfuerzo del #[em(style="color:#12263F;") Product Backlog] y en el eje X la cantidad de #[em(style="color:#12263F;") Sprint] proyectados. Cada uno de estos puntos se unen por medio de una línea y es posible determinar visualmente si el flujo de trabajo está en una situación óptima o no respecto al tiempo restante para completar el #[em(style="color:#12263F;") Sprint].
           .tarjeta.color-acento-botones.p-4(titulo="Tablero de Scrum <br>(<em>Scrumboard</em>)" style="background-color:#E1F6EF;")
             h4(style="color:#12263F;") Tablero de Scrum (#[em(style="color:#12263F;") Scrumboard])
             p(style="color:#12263F;") Es un elemento visual en donde se integra la mayor parte de los elementos del marco de trabajo Scrum, en él se indica la carga de trabajo, el estado actual de cada una de las actividades y sus respectivos responsables. Este es un elemento que se sincroniza de manera permanente y facilita la implementación los pilares de transparencia, inspección y adaptabilidad. 
@@ -1509,7 +1509,7 @@
             div Es posible gestionar las expectativas del cliente de manera regular ya que este puede y debe participar en las reuniones de revisión por lo que está enterado todo el tiempo del estado actual del proyecto.
           li.d-flex
             i.far.fa-file-code(style="color:#1682FB !important;")
-            div El cliente puede obtener resultados importantes y utilizables desde las primeras iteraciones ya que la lista de producto está priorizada para ofrecer mayor valor en el menor tiempo posible y porque cada finalización de Sprint debe tener como resultado una versión totalmente funcional.
+            div El cliente puede obtener resultados importantes y utilizables desde las primeras iteraciones ya que la lista de producto está priorizada para ofrecer mayor valor en el menor tiempo posible y porque cada finalización de #[em Sprint] debe tener como resultado una versión totalmente funcional.
           li.d-flex
             i.far.fa-file-code(style="color:#1682FB !important;")
             div El proyecto puede iniciar con requerimientos de muy alto nivel y es fácil administrar los cambios.
@@ -1568,7 +1568,7 @@
         .p-4.mt-4(style="background-color:#DEE1ED;border-radius:12px;")
           p.mb-0 En un proyecto ágil vamos a tener iteraciones o #[em sprints], cada #[em sprint] tiene una duración que no es muy extensa aproximadamente dos a cuatro semanas; al final de cada iteración ya están definidas funcionalidades que pueden ser utilizadas por el cliente. En los proyectos ágiles existen dos tipos de planificaciones: #[em release]/entrega y #[em sprint]/iteración; no obstante, estas se pueden dar en un mismo momento, es decir, que puede incluir una sola planificación con actividades tanto del #[em release] como del #[em sprint]. Se debe tener en cuenta que en un proyecto ágil las pruebas de #[em software] se realizan en cada iteración.
     
-    p.mt-4(data-aos="fade-right") La metodología de desarrollo de #[em software] en cascada utiliza diferentes tipos de pruebas de #[em software] que probaran tanto requerimientos funcionales como no funcionales de manera secuencial. No obstante, en metodologías ágiles específicamente en las pruebas agiles, también se consideran varios tipos de pruebas, pero teniendo en cuenta que se utilizan sprints o interacciones cortas e integraciones continuas, entre los equipos de desarrollo, diseño y pruebas.
+    p.mt-4(data-aos="fade-right") La metodología de desarrollo de #[em software] en cascada utiliza diferentes tipos de pruebas de #[em software] que probaran tanto requerimientos funcionales como no funcionales de manera secuencial. No obstante, en metodologías ágiles específicamente en las pruebas agiles, también se consideran varios tipos de pruebas, pero teniendo en cuenta que se utilizan #[em sprints] o interacciones cortas e integraciones continuas, entre los equipos de desarrollo, diseño y pruebas.
 
     .cont_titulo_decorativo.mt-5(data-aos="fade-right")
       .row

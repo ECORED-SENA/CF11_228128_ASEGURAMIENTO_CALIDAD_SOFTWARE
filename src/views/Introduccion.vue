@@ -34,7 +34,7 @@
               figure.mb-2.mb-lg-0
                 img(src="@/assets/curso/intro3.png" alt="Imagen decorativa")
             .col-lg.col-md-12.col-12.p-0.p-lg-4(style="place-self:center;" data-aos="fade-left")
-              p.mb-0 En este componente formativo, usted podrá abordar los fundamentos de la calidad del software, entendiendo los valores misionales de las empresas, y cómo estos repercuten en los diferentes procesos de control de la misma. La calidad es una característica que debe ser transversal en todos y cada uno de estos procesos, porque de esta forma podremos asegurar éxito y productividad. Un quipo capacitado, comprometido y creativo es un valor agregado en la industria del software, que cada vez va en aumento, pero que también exige compromiso de todos.
+              p.mb-0 En este componente formativo, usted podrá abordar los fundamentos de la calidad del #[em software], entendiendo los valores misionales de las empresas, y cómo estos repercuten en los diferentes procesos de control de la misma. La calidad es una característica que debe ser transversal en todos y cada uno de estos procesos, porque de esta forma podremos asegurar éxito y productividad. Un quipo capacitado, comprometido y creativo es un valor agregado en la industria del #[em software], que cada vez va en aumento, pero que también exige compromiso de todos.
 
     
  
